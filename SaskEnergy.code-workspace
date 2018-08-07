@@ -1,0 +1,302 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"datasource.connectionGroups": [
+			{
+				"name": "ROOT",
+				"id": "C777F06B-202E-4480-B475-FA416154D458",
+				"color": "#4452A6",
+				"description": ""
+			},
+			{
+				"name": "Sandbox",
+				"id": "761728c8-c66e-4d9c-8092-2763bf146f07",
+				"parentId": "5c925886-3a6a-407c-b22c-133d98396be6",
+				"color": "#85AE72",
+				"description": ""
+			},
+			{
+				"name": "DEV",
+				"id": "bb0760e4-ea87-4877-89d1-c6ecf433d4fe",
+				"parentId": "5c925886-3a6a-407c-b22c-133d98396be6",
+				"color": "#4452A6",
+				"description": ""
+			},
+			{
+				"name": "UAT",
+				"id": "45dc2de8-6463-46e6-9b19-3153693cb76b",
+				"parentId": "5c925886-3a6a-407c-b22c-133d98396be6",
+				"color": "#914576",
+				"description": ""
+			},
+			{
+				"name": "PROD",
+				"id": "955d6898-e8d1-4549-83c6-5d6359ebb49a",
+				"parentId": "5c925886-3a6a-407c-b22c-133d98396be6",
+				"color": "#7F0000",
+				"description": ""
+			},
+			{
+				"name": "TRN",
+				"id": "7c6d6e84-b26c-4bd9-90f3-e946248588a9",
+				"parentId": "5c925886-3a6a-407c-b22c-133d98396be6",
+				"color": "#98AFC7",
+				"description": ""
+			},
+			{
+				"name": "SaskEnergy",
+				"id": "5c925886-3a6a-407c-b22c-133d98396be6",
+				"parentId": "C777F06B-202E-4480-B475-FA416154D458",
+				"color": "#515151",
+				"description": ""
+			}
+		],
+		"datasource.connections": [
+			{
+				"options": {
+					"server": "10.227.245.84",
+					"database": "Service Optimization",
+					"authenticationType": "SqlLogin",
+					"user": "w6admin",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "761728c8-c66e-4d9c-8092-2763bf146f07",
+					"databaseDisplayName": "Service Optimization"
+				},
+				"groupId": "761728c8-c66e-4d9c-8092-2763bf146f07",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "4d77e60c-db1b-46f6-a06c-9a9d2f0f6fd7"
+			},
+			{
+				"options": {
+					"server": "10.227.245.84",
+					"database": "ClickMobile",
+					"authenticationType": "SqlLogin",
+					"user": "ClickMobile",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "761728c8-c66e-4d9c-8092-2763bf146f07",
+					"databaseDisplayName": "ClickMobile"
+				},
+				"groupId": "761728c8-c66e-4d9c-8092-2763bf146f07",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "d066cc18-5f81-472b-9984-a03d68776c82"
+			},
+			{
+				"options": {
+					"server": "10.227.245.84",
+					"database": "ClickAudit",
+					"authenticationType": "SqlLogin",
+					"user": "ClickAudit",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "761728c8-c66e-4d9c-8092-2763bf146f07",
+					"databaseDisplayName": "ClickAudit"
+				},
+				"groupId": "761728c8-c66e-4d9c-8092-2763bf146f07",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "b66622e4-b342-4bb9-985d-ce55d357a661"
+			},
+			{
+				"options": {
+					"server": "10.227.245.74",
+					"database": "Service Optimization",
+					"authenticationType": "SqlLogin",
+					"user": "w6admin",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "bb0760e4-ea87-4877-89d1-c6ecf433d4fe",
+					"databaseDisplayName": "Service Optimization"
+				},
+				"groupId": "bb0760e4-ea87-4877-89d1-c6ecf433d4fe",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "0f86d9aa-739c-46c4-864a-7ee926d8ac7c"
+			},
+			{
+				"options": {
+					"server": "10.227.245.74",
+					"database": "ClickMobile",
+					"authenticationType": "SqlLogin",
+					"user": "ClickMobile",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "bb0760e4-ea87-4877-89d1-c6ecf433d4fe",
+					"databaseDisplayName": "ClickMobile"
+				},
+				"groupId": "bb0760e4-ea87-4877-89d1-c6ecf433d4fe",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "85b2b166-7c73-4e41-b9e6-82c6e83521c6"
+			},
+			{
+				"options": {
+					"server": "10.227.245.74",
+					"database": "ClickAudit",
+					"authenticationType": "SqlLogin",
+					"user": "ClickAudit",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "bb0760e4-ea87-4877-89d1-c6ecf433d4fe",
+					"databaseDisplayName": "ClickAudit"
+				},
+				"groupId": "bb0760e4-ea87-4877-89d1-c6ecf433d4fe",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "0a75c36f-6616-4b89-9437-77f386e964f6"
+			},
+			{
+				"options": {
+					"server": "10.227.243.140",
+					"database": "Service Optimization",
+					"authenticationType": "SqlLogin",
+					"user": "w6admin",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "45dc2de8-6463-46e6-9b19-3153693cb76b",
+					"databaseDisplayName": "Service Optimization"
+				},
+				"groupId": "45dc2de8-6463-46e6-9b19-3153693cb76b",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "3c63b275-7dc7-4195-b250-55b969ee0d8a"
+			},
+			{
+				"options": {
+					"server": "10.227.243.144",
+					"database": "ClickMobile",
+					"authenticationType": "SqlLogin",
+					"user": "ClickMobile",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "45dc2de8-6463-46e6-9b19-3153693cb76b",
+					"databaseDisplayName": "ClickMobile"
+				},
+				"groupId": "45dc2de8-6463-46e6-9b19-3153693cb76b",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "bacb64bf-4b01-4105-9e86-84cd65a21a6a"
+			},
+			{
+				"options": {
+					"server": "10.227.243.145",
+					"database": "ClickAudit",
+					"authenticationType": "SqlLogin",
+					"user": "ClickAudit",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "45dc2de8-6463-46e6-9b19-3153693cb76b",
+					"databaseDisplayName": "ClickAudit"
+				},
+				"groupId": "45dc2de8-6463-46e6-9b19-3153693cb76b",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "30f46e18-e8be-4278-a227-9a6169a241eb"
+			},
+			{
+				"options": {
+					"server": "10.227.241.140",
+					"database": "Service Optimization",
+					"authenticationType": "SqlLogin",
+					"user": "w6admin",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "955d6898-e8d1-4549-83c6-5d6359ebb49a",
+					"databaseDisplayName": "Service Optimization"
+				},
+				"groupId": "955d6898-e8d1-4549-83c6-5d6359ebb49a",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "92b51142-56fb-40a0-a04a-c7222235282c"
+			},
+			{
+				"options": {
+					"server": "10.227.241.144",
+					"database": "ClickMobile",
+					"authenticationType": "SqlLogin",
+					"user": "ClickMobile",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "955d6898-e8d1-4549-83c6-5d6359ebb49a",
+					"databaseDisplayName": "ClickMobile"
+				},
+				"groupId": "955d6898-e8d1-4549-83c6-5d6359ebb49a",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "3d356a4d-f5d1-4c0f-9bc0-eca7e4887f36"
+			},
+			{
+				"options": {
+					"server": "10.227.241.145",
+					"database": "ClickAudit",
+					"authenticationType": "SqlLogin",
+					"user": "ClickAudit",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "955d6898-e8d1-4549-83c6-5d6359ebb49a",
+					"databaseDisplayName": "ClickAudit"
+				},
+				"groupId": "955d6898-e8d1-4549-83c6-5d6359ebb49a",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "efeac3c0-52f6-413f-8024-7867a433e3ba"
+			},
+			{
+				"options": {
+					"server": "10.227.245.94",
+					"database": "Service Optimization",
+					"authenticationType": "SqlLogin",
+					"user": "w6admin",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "7c6d6e84-b26c-4bd9-90f3-e946248588a9",
+					"databaseDisplayName": "Service Optimization"
+				},
+				"groupId": "7c6d6e84-b26c-4bd9-90f3-e946248588a9",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "235de459-0626-434f-9fde-42f6764ded52"
+			},
+			{
+				"options": {
+					"server": "10.227.245.94",
+					"database": "ClickMobile",
+					"authenticationType": "SqlLogin",
+					"user": "ClickMobile",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "7c6d6e84-b26c-4bd9-90f3-e946248588a9",
+					"databaseDisplayName": "ClickMobile"
+				},
+				"groupId": "7c6d6e84-b26c-4bd9-90f3-e946248588a9",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "571891b0-511b-4ca6-a242-099adc2e13f7"
+			},
+			{
+				"options": {
+					"server": "10.227.245.94",
+					"database": "ClickAudit",
+					"authenticationType": "SqlLogin",
+					"user": "ClickAudit",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "7c6d6e84-b26c-4bd9-90f3-e946248588a9",
+					"databaseDisplayName": "ClickAudit"
+				},
+				"groupId": "7c6d6e84-b26c-4bd9-90f3-e946248588a9",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "03c89d10-9287-4078-80ee-c143dafabaf3"
+			}
+		],
+	
+	}
+}
