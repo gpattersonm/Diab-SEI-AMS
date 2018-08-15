@@ -1,4 +1,5 @@
-SELECT 
+-- identify the items to update
+SELECT
 t.W6Key,
 t.CallID,
 t.OrderID,
@@ -16,5 +17,17 @@ where tt.Name = 'AMIMtnce'
 and ts.Name not in ('Completed', 'Cancelled', 'Incomplete')
 
 
--- SELECT * from W6SCHEDULEPRIORITYCATEGORY
--- update W6Tasks t set BucketID = 1166016512 where t.TaskType = 124821505 and t.BucketID = 1166016513 and t.Status not in (124135430, 124143616, 124145668)
+
+-- Update the necessary tasks. Uncomment the below query after validating the proper keys
+-- UPDATE
+-- W6Tasks t 
+-- set t.BucketID = 1166016512 -- Large volume/window
+-- and t.Revision to t.Revision + 1  -- incriment Revision by 1
+-- where 
+-- t.TaskType = 124821505 -- AMIMtnce
+-- and t.BucketID = 1166016513 -- Regular
+-- and t.Status not in (
+--     124135430, -- Completed
+--     124143616, -- Cancelled
+--     124145668  -- Incomplete
+--     )
