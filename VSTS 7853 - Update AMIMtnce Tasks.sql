@@ -19,15 +19,13 @@ and ts.Name not in ('Completed', 'Cancelled', 'Incomplete')
 
 
 -- Update the necessary tasks. Uncomment the below query after validating the proper keys
--- UPDATE
--- W6Tasks t 
--- set t.BucketID = 1166016512 -- Large volume/window
--- and t.Revision to t.Revision + 1  -- incriment Revision by 1
--- where 
--- t.TaskType = 124821505 -- AMIMtnce
--- and t.BucketID = 1166016513 -- Regular
--- and t.Status not in (
---     124135430, -- Completed
---     124143616, -- Cancelled
---     124145668  -- Incomplete
---     )
+-- UPDATE W6Tasks
+-- SET    BucketID = 1166016512, -- Large volume/window
+--        Revision = Revision + 1, 
+--        BinaryData = NULL 
+-- WHERE  TaskType = 124821505 -- AMIMtnce
+--        AND BucketID = 1166016513 -- Regular
+--        AND status NOT IN ( 124135430, -- Completed  
+--                              124143616, -- Cancelled  
+--                              124145668 -- Incomplete  
+--                             );
