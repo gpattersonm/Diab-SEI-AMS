@@ -1,0 +1,115 @@
+USE [Service Optimization]
+GO
+
+/****** Object:  StoredProcedure [dbo].[CreateCopyTableFINALOW]    Script Date: 10/22/2018 6:08:04 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+create procedure [dbo].[CreateCopyTableFINALOW]
+
+AS
+
+BEGIN
+
+select
+W6ONEWORLDCOMPLETION.W6Key,
+W6ONEWORLDCOMPLETION.MobileKey,
+W6ONEWORLDCOMPLETION.OrderID,
+W6ONEWORLDCOMPLETION.VentsEffectiveDate,
+W6ONEWORLDCOMPLETION.VentsCarrierMV,
+W6ONEWORLDCOMPLETION.VentsCasingMV,
+W6ONEWORLDCOMPLETION.VentsGasDetected,
+W6ONEWORLDCOMPLETION.EntranceEffectiveDate,
+W6ONEWORLDCOMPLETION.EntranceComments,
+W6ONEWORLDCOMPLETION.LeakComments,
+W6ONEWORLDCOMPLETION.ControlPointAssetNumber,
+W6ONEWORLDCOMPLETION.ControlPointPipeToSoilAF,
+W6ONEWORLDCOMPLETION.ControlPointPipeToSoilAL,
+W6ONEWORLDCOMPLETION.ControlPointBaseRead,
+W6ONEWORLDCOMPLETION.RectifierAssetNumber,
+W6ONEWORLDCOMPLETION.RectifierTapSettingAF,
+W6ONEWORLDCOMPLETION.RectifierTapSettingAL,
+W6ONEWORLDCOMPLETION.RectifierTerminalVoltageAF,
+W6ONEWORLDCOMPLETION.RectifierTerminalVoltageAL,
+W6ONEWORLDCOMPLETION.RectifierOutputCurrentAF,
+W6ONEWORLDCOMPLETION.RectifierOutputCurrentAL,
+W6ONEWORLDCOMPLETION.RectifierDrainPointPotential,
+W6ONEWORLDCOMPLETION.ControlPointAdditionalAssetNumber,
+W6ONEWORLDCOMPLETION.ControlPointAdditionalPipeToSoilAF,
+W6ONEWORLDCOMPLETION.ControlPointAdditionalPipeToSoilAL,
+W6ONEWORLDCOMPLETION.ControlPointAdditionalBaseRead,
+W6ONEWORLDCOMPLETION.RectifierAdditionalAssetNumber,
+W6ONEWORLDCOMPLETION.RectifierAdditionalTapSettingAF,
+W6ONEWORLDCOMPLETION.RectifierAdditionalTapSettingAL,
+W6ONEWORLDCOMPLETION.RectifierAdditionalTerminalVoltageAF,
+W6ONEWORLDCOMPLETION.RectifierAdditionalTerminalVoltageAL,
+W6ONEWORLDCOMPLETION.RectifierAdditionalOutputCurrentAF,
+W6ONEWORLDCOMPLETION.RectifierAdditionalOutputCurrentAL,
+W6ONEWORLDCOMPLETION.RectifierAdditionalDrainPointPotential,
+W6ONEWORLDCOMPLETION.TankAssetNumber,
+W6ONEWORLDCOMPLETION.TankOdorantLevelAF,
+W6ONEWORLDCOMPLETION.TankOdorantLevelAL,
+W6ONEWORLDCOMPLETION.TankControlValveSettingAF,
+W6ONEWORLDCOMPLETION.TankControlValveSettingAL,
+W6ONEWORLDCOMPLETION.IntensityAssetNumber,
+W6ONEWORLDCOMPLETION.IntensityThresholdReading,
+W6ONEWORLDCOMPLETION.IntensityAdditionalAssetNumber,
+W6ONEWORLDCOMPLETION.IntensityAdditionalThresholdReading,
+W6ONEWORLDCOMPLETION.TankAdditionalAssetNumber,
+W6ONEWORLDCOMPLETION.TankAdditionalOdorantLevelAF,
+W6ONEWORLDCOMPLETION.TankAdditionalOdorantLevelAL,
+W6ONEWORLDCOMPLETION.TankAdditionalControlValveSettingAF,
+W6ONEWORLDCOMPLETION.TankAdditionalControlValveSettingAL,
+W6ONEWORLDCOMPLETION.CompletionComments,
+W6OWWOCAUSEPMRESULTS.Name as WoCausePmResults,
+W6OWComponentActionTaken.Name as ComponentActionTaken,
+W6OWFOLLOWUPACTION.Name as FollowUpAction,
+W6OWFollowUpGroup.Name as FollowUpGroup,
+W6OWESTIMATEDDURATIONFORSUBSEQUENTORDER.Name as EstimatedDurationForSubsequentOrder,
+VentsActionTaken.Name as VentsActionTaken,
+W6OWENTRANCECPRANGE.Name as EntranceCPRange,
+EntranceActionTaken.Name as EntranceActionTaken,
+W6OWLeakAboveOrBelowGround.Name as LeakAboveOrBelowGround,
+W6OWLeakHighestClassification.Name as LeakHighestClassification,
+W6OWLeakHighestReading.Name as LeakHighestRating,
+W6OWLeakLocation.Name as LeakLocation,
+TankUnitMeasure.Name as TankUnitMeasure,
+IntensityTestpointRating.Name as IntensityTestpointRating,
+IntensityInstrumentSerialNumber.Name as IntensityInstrumentSerialNumber,
+IntensityAdditionalTestpointRating.Name as IntensityAdditionalTestpointRating,
+IntensityAdditionalInstrumentSerialNumber.Name as IntensityAdditionalInstrumentSerialNumber,
+TankAdditionalUnitMeasure.Name as TankAdditionalUnitMeasure,
+OneWorldControlPoints.GetMVContolPoints, OneWorldODRs.GetMVODRs
+INTO W6RETTMPOWCOMPLETION
+from W6ONEWORLDCOMPLETION
+left outer join OneWorldControlPoints on W6ONEWORLDCOMPLETION.w6key=OneWorldControlPoints.w6key
+left outer join OneWorldODRs on W6ONEWORLDCOMPLETION.w6key=OneWorldODRs.w6key
+left outer join W6OWWOCAUSEPMRESULTS on W6ONEWORLDCOMPLETION.WoCausePmResults=W6OWWOCAUSEPMRESULTS.w6key
+left outer join W6OWComponentActionTaken on W6ONEWORLDCOMPLETION.ComponentActionTaken=W6OWComponentActionTaken.w6key
+left outer join W6OWFOLLOWUPACTION on W6ONEWORLDCOMPLETION.FollowUpAction=W6OWFOLLOWUPACTION.w6key
+left outer join W6OWFollowUpGroup on W6ONEWORLDCOMPLETION.FollowUpGroup=W6OWFollowUpGroup.w6key
+left outer join W6OWESTIMATEDDURATIONFORSUBSEQUENTORDER on W6ONEWORLDCOMPLETION.EstimatedDurationForSubsequentOrder=W6OWESTIMATEDDURATIONFORSUBSEQUENTORDER.w6key
+left outer join W6OWVENTSENTSACTIONTAKEN as VentsActionTaken on W6ONEWORLDCOMPLETION.VentsActionTaken=VentsActionTaken.w6key
+left outer join W6OWENTRANCECPRANGE on W6ONEWORLDCOMPLETION.EntranceCPRange=W6OWENTRANCECPRANGE.w6key
+left outer join w6OWVentsEntsActionTaken as EntranceActionTaken on W6ONEWORLDCOMPLETION.EntranceActionTaken=EntranceActionTaken.w6key
+left outer join W6OWLeakAboveOrBelowGround on W6ONEWORLDCOMPLETION.LeakAboveOrBelowGround=W6OWLeakAboveOrBelowGround.w6key
+left outer join W6OWLeakHighestClassification on W6ONEWORLDCOMPLETION.LeakHighestClassification=W6OWLeakHighestClassification.w6key
+left outer join W6OWLeakHighestReading on W6ONEWORLDCOMPLETION.LeakHighestRating=W6OWLeakHighestReading.w6key
+left outer join W6OWLeakLocation on W6ONEWORLDCOMPLETION.LeakLocation=W6OWLeakLocation.w6key
+left outer join W6OWTankUnitMeasure as TankUnitMeasure on W6ONEWORLDCOMPLETION.TankUnitMeasure=TankUnitMeasure.w6key
+left outer join W6OWIntensityTestpointRating as IntensityTestpointRating on W6ONEWORLDCOMPLETION.IntensityTestpointRating=IntensityTestpointRating.w6key
+left outer join W6OWOdoratorSerialNumber as IntensityInstrumentSerialNumber on W6ONEWORLDCOMPLETION.IntensityInstrumentSerialNumber=IntensityInstrumentSerialNumber.w6key
+left outer join W6OWIntensityTestpointRating as IntensityAdditionalTestpointRating on W6ONEWORLDCOMPLETION.IntensityAdditionalTestpointRating=IntensityAdditionalTestpointRating.w6key
+left outer join W6OWOdoratorSerialNumber as IntensityAdditionalInstrumentSerialNumber on W6ONEWORLDCOMPLETION.IntensityAdditionalInstrumentSerialNumber=IntensityAdditionalInstrumentSerialNumber.w6key
+left outer join W6OWTankUnitMeasure as TankAdditionalUnitMeasure on W6ONEWORLDCOMPLETION.TankAdditionalUnitMeasure=TankAdditionalUnitMeasure.w6key
+where
+DATEDIFF(day,W6ONEWORLDCOMPLETION.TimeCreated ,GETDATE()) = 17
+order by W6ONEWORLDCOMPLETION.timecreated desc
+
+END
+GO
+
+
