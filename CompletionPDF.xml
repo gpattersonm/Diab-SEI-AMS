@@ -96,7 +96,7 @@
                 <Field Property="Task.LineLocate.MethodOfMarkingSaskEnergyLines" Title="Method of marking SaskEnergy lines" AlwaysShow="true" col="1" colspan="3" IfEmpty="N/A" />
             </Row>
             <Row>
-                <Field Property="Task.LineLocate.SEIParcelsServiced" IfEmpty="N/A" Title="Does every parcel of land that was located located have gas service?" col="1" />
+                <Field Property="Task.LineLocate.SEIParcelsServiced" IfEmpty="N/A" Title="Does every parcel of land that was located have gas service?" col="1" />
                 <Field Property="Task.LineLocate.SEIFirstNationLand" IfEmpty="N/A" Title="Is the Locate on First Nation land?" col="3" />
             </Row>
             <Row />
