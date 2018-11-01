@@ -58,7 +58,7 @@
                                                     <text name="textFormat" objectType="Task" format="{TaskType}" operationType="Modified" />
                                                     <text name="N/ATextFormat" objectType="Task" format="{Assignment_NonAvailabilityType}, {Assignment_City}" operationType="Modified" />
                                                     <layerToolTips name="layerToolTip">
-                                                        <tooltip name="assignmentToolTip" format="Scheduling Priority: {SchedulingPriority}\nJob Code: {TaskType}\nStreet Line 1: {Street}\nCity/Town: {City}\nDistrict: {District}" operationType="Modified" />
+                                                        <tooltip name="assignmentToolTip" format="Scheduling Priority: {SchedulingPriority}\nJob Code: {TaskType}\nStreet Line 1: {Street}\nCity/Town: {City}\nDistrict: {District}\nExpiry Date: {DueDate}\nStart: {Assignment_Start}\nFinish: {Assignment_Finish}" operationType="Modified" />
                                                     </layerToolTips>
                                                     <backgroundColor name="CrewAllocationBackgroundColor" defaultColor="#FFFF8040" operationType="Modified" />
                                                     <backgroundColor name="RelocationBackgroundColor" defaultColor="#FF804000" operationType="Modified" />
@@ -275,7 +275,6 @@
                                                         <value name="RegVsInsp" image="" operationType="Added" />
                                                         <value name="RehangLG" image="" operationType="Added" />
                                                         <value name="RehangSM" image="" operationType="Added" />
-                                                        <value name="ReliteAppl" image="" operationType="Added" />
                                                         <value name="ReliteSEIL" image="" operationType="Added" />
                                                         <value name="ReliteSEIS" image="" operationType="Added" />
                                                         <value name="Retire" image="" operationType="Added" />
@@ -322,7 +321,6 @@
                                                         <value name="VlvMtce5Y" image="" operationType="Added" />
                                                         <value name="VlvMtceAG" image="" operationType="Added" />
                                                         <value name="VlvMtceAn" image="" operationType="Added" />
-                                                        <value name="YardMaint" image="" operationType="Added" />
                                                     </icon>
                                                     <layerContextMenus name="layerContextMenus">
                                                         <contextMenu name="AssignmentContextMenu" operationType="Modified">
