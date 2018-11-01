@@ -44,14 +44,14 @@
                                             </contextMenus>
                                         </W6DataGrid>
                                     </ResourcesList>
-                                    <resourcesGanttChart name="ResourcesGanttChart" taskRequestedProperties="Status,TaskType,CallID,Number,City,DisplayStatus,District,Key,Postcode,Priority,Street,AppFinSinceMidnight,Area,Comment,Customer2,CustomerAccount,CustomerCell,OrderID,SchedulingPriority,DisplayStatus" assignmentRequestedProperties="NonAvailabilityType,Engineers,Comment,Start,Finish,AssignedEngineers,IsBreakIncluded,IncludedBreakDuration,City,Key,Postcode,Street,ArchiveStatus,ArchiveStatus" loadTravelTime="true" showDayAbbreviation="false">
+                                    <resourcesGanttChart name="ResourcesGanttChart" taskRequestedProperties="Status,TaskType,CallID,Number,City,DisplayStatus,District,Key,Postcode,Priority,Street,AppFinSinceMidnight,Area,Comment,Customer2,CustomerAccount,CustomerCell,OrderID,SchedulingPriority,DisplayStatus,DueDate" assignmentRequestedProperties="NonAvailabilityType,Engineers,Comment,Start,Finish,AssignedEngineers,IsBreakIncluded,IncludedBreakDuration,City,Key,Postcode,Street,ArchiveStatus,ArchiveStatus" loadTravelTime="true" showDayAbbreviation="false">
                                         <layersConfiguration name="LayersConfiguration">
                                             <ganttChartLayer name="TaskTimeLayer">
                                                 <formatter name="TaskAndTravelTimeLayerFormatter">
                                                     <text name="textFormat" objectType="Task" format="{TaskType}" operationType="Modified" />
                                                     <text name="N/ATextFormat" objectType="Task" format="{Assignment_NonAvailabilityType}, {Assignment_City}" operationType="Modified" />
                                                     <layerToolTips name="layerToolTip">
-                                                        <tooltip name="assignmentToolTip" format="Scheduling Priority: {SchedulingPriority}\nJob Code: {TaskType}\nStreet Line 1: {Street}\nCity/Town: {City}\nDistrict: {District}" operationType="Modified" />
+                                                        <tooltip name="assignmentToolTip" format="Scheduling Priority: {SchedulingPriority}\nJob Code: {TaskType}\nStreet Line 1: {Street}\nCity/Town: {City}\nDistrict: {District}\nExpiry Date: {DueDate}\nStart: {Assignment_Start}\nFinish: {Assignment_Finish}" operationType="Modified" />
                                                     </layerToolTips>
                                                     <backgroundColor name="CrewAllocationBackgroundColor" defaultColor="#FFFF8040" operationType="Modified" />
                                                     <backgroundColor name="RelocationBackgroundColor" defaultColor="#FF804000" operationType="Modified" />
@@ -252,7 +252,6 @@
                                                         <value name="RegVsInsp" image="" operationType="Added" />
                                                         <value name="RehangLG" image="" operationType="Added" />
                                                         <value name="RehangSM" image="" operationType="Added" />
-                                                        <value name="ReliteAppl" image="" operationType="Added" />
                                                         <value name="ReliteSEIL" image="" operationType="Added" />
                                                         <value name="ReliteSEIS" image="" operationType="Added" />
                                                         <value name="Retire" image="" operationType="Added" />
@@ -296,7 +295,6 @@
                                                         <value name="VlvMtce5Y" image="" operationType="Added" />
                                                         <value name="VlvMtceAG" image="" operationType="Added" />
                                                         <value name="VlvMtceAn" image="" operationType="Added" />
-                                                        <value name="YardMaint" image="" operationType="Added" />
                                                     </icon>
                                                     <layerContextMenus name="layerContextMenus">
                                                         <contextMenu name="AssignmentContextMenu" operationType="Modified">
@@ -436,7 +434,7 @@
                         <caption name="caption" text="Work Order List" />
                         <workingArea name="workingArea">
                             <controls name="workingAreaControls">
-                                <w6DataGrid name="W6TaskListDataGrid" additionalRequestedProperties="Assignment_AssignedEngineers,Assignment_City,Assignment_Comment,Assignment_Engineers,Assignment_Finish,Assignment_NonAvailabilityType,Assignment_Postcode,Assignment_Street,Assignment_IncludedBreakDuration,Assignment_ArchiveStatus,Assignment_ArchiveStatus,City,DisplayStatus,District,Key,Postcode,Priority,Street,AppFinSinceMidnight,Area,Comment,Customer2,CustomerAccount,CustomerCell,OrderID,SchedulingPriority,DisplayStatus">
+                                <w6DataGrid name="W6TaskListDataGrid" additionalRequestedProperties="Assignment_AssignedEngineers,Assignment_City,Assignment_Comment,Assignment_Engineers,Assignment_Finish,Assignment_NonAvailabilityType,Assignment_Postcode,Assignment_Street,Assignment_IncludedBreakDuration,Assignment_ArchiveStatus,Assignment_ArchiveStatus,Assignment_Finish,City,DisplayStatus,District,Key,Postcode,Priority,Street,AppFinSinceMidnight,Area,Comment,Customer2,CustomerAccount,CustomerCell,OrderID,SchedulingPriority,DisplayStatus,DueDate">
                                     <columns name="columns">
                                         <column name="IsScheduled" operationType="Removed" />
                                         <column name="InJeopardy" operationType="Removed" />
