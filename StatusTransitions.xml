@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+  <StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Completed|Completed|14]">
+      <Key>260048898</Key>
+      <Revision>1</Revision>
+      <Name>Allow Task Delete In Status</Name>
+      <StatusBefore xoom:ref="TaskStatus[Completed]">Completed</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Completed]">Completed</StatusAfter>
+      <StatusContext>14</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Completed|Completed|4]">
+      <Key>260057094</Key>
+      <Revision>1</Revision>
+      <Name>Lock Assignment</Name>
+      <StatusBefore xoom:ref="TaskStatus[Completed]">Completed</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Completed]">Completed</StatusAfter>
+      <StatusContext>4</StatusContext>
+      <Users />
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Completed|On Site|0]">
+      <Key>260087808</Key>
+      <Revision>4</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Completed]">Completed</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Site]">On Site</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>saskeng\rathv1</Name>
+        <Name>SASKENG\limj1</Name>
+        <Name>SASKENG\olsoa1</Name>
+        <Name>SASKENG\pattg1</Name>
+        <Name>saskeng\ratht1</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|Cancelled|0]">
+      <Key>260100098</Key>
+      <Revision>6</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Cancelled]">Cancelled</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>srv_click_uat_tsx</Name>
+        <Name>BizTalk</Name>
+        <Name>NETWORK SERVICE</Name>
+        <Name>SaskEnergy.Integration</Name>
+        <Name>SEQ-MHC-INT01\ClickCGIUAT</Name>
+        <Name>SEQ-MHC-INT01\ClickUAT</Name>
+        <Name>SEQ-MHC-INT02\ClickCGIUAT</Name>
+        <Name>SEQ-MHC-INT02\ClickUAT</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|Cancelled|3]">
+      <Key>260081664</Key>
+      <Revision>7</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Cancelled]">Cancelled</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>SaskEnergy.Integration</Name>
+        <Name>BizTalk</Name>
+        <Name>NETWORK SERVICE</Name>
+        <Name>SEQ-MHC-INT01\ClickCGIUAT</Name>
+        <Name>SEQ-MHC-INT01\ClickUAT</Name>
+        <Name>SEQ-MHC-INT02\ClickCGIUAT</Name>
+        <Name>SEQ-MHC-INT02\ClickUAT</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|Dispatched|6]">
+      <Key>125945884</Key>
+      <Revision>1</Revision>
+      <Name>Lock Engineer</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusAfter>
+      <StatusContext>6</StatusContext>
+      <Users>
+        <Name />
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|En Route|0]">
+      <Key>125945862</Key>
+      <Revision>2</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[En Route]">En Route</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|On Hold|0]">
+      <Key>260065282</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Hold]">On Hold</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|On Hold|3]">
+      <Key>260081665</Key>
+      <Revision>1</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Hold]">On Hold</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|Open|2]">
+      <Key>260073478</Key>
+      <Revision>1</Revision>
+      <Name>Status Change On UnSchedule</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>2</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Dispatched|Open|3]">
+      <Key>260083712</Key>
+      <Revision>1</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[En Route|En Route|6]">
+      <Key>125945883</Key>
+      <Revision>2</Revision>
+      <Name>Lock Engineer</Name>
+      <StatusBefore xoom:ref="TaskStatus[En Route]">En Route</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[En Route]">En Route</StatusAfter>
+      <StatusContext>6</StatusContext>
+      <Users />
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[En Route|Field Suspend|0]">
+      <Key>260073475</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[En Route]">En Route</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[En Route|On Hold|0]">
+      <Key>260073473</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[En Route]">En Route</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Hold]">On Hold</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[En Route|On Site|0]">
+      <Key>125945868</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[En Route]">En Route</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Site]">On Site</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[En Route|Open|3]">
+      <Key>260100097</Key>
+      <Revision>1</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[En Route]">En Route</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Field Suspend|En Route|0]">
+      <Key>260059139</Key>
+      <Revision>2</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[En Route]">En Route</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Field Suspend|Field Suspend|6]">
+      <Key>260059148</Key>
+      <Revision>2</Revision>
+      <Name>Lock Engineer</Name>
+      <StatusBefore xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusAfter>
+      <StatusContext>6</StatusContext>
+      <Users>
+        <Name />
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Field Suspend|On Hold|0]">
+      <Key>260073479</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Hold]">On Hold</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Field Suspend|On Site|0]">
+      <Key>260059138</Key>
+      <Revision>2</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Site]">On Site</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Field Suspend|Open|2]">
+      <Key>260073476</Key>
+      <Revision>1</Revision>
+      <Name>Status Change On UnSchedule</Name>
+      <StatusBefore xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>2</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Incomplete|Incomplete|14]">
+      <Key>260048899</Key>
+      <Revision>1</Revision>
+      <Name>Allow Task Delete In Status</Name>
+      <StatusBefore xoom:ref="TaskStatus[Incomplete]">Incomplete</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Incomplete]">Incomplete</StatusAfter>
+      <StatusContext>14</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Incomplete|Incomplete|4]">
+      <Key>260048896</Key>
+      <Revision>1</Revision>
+      <Name>Lock Assignment</Name>
+      <StatusBefore xoom:ref="TaskStatus[Incomplete]">Incomplete</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Incomplete]">Incomplete</StatusAfter>
+      <StatusContext>4</StatusContext>
+      <Users />
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Hold|Cancelled|0]">
+      <Key>260059144</Key>
+      <Revision>7</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Hold]">On Hold</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Cancelled]">Cancelled</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>SaskEnergy.Integration</Name>
+        <Name>BizTalk</Name>
+        <Name>NETWORK SERVICE</Name>
+        <Name>SEQ-MHC-INT01\ClickCGIUAT</Name>
+        <Name>SEQ-MHC-INT01\ClickUAT</Name>
+        <Name>SEQ-MHC-INT02\ClickUAT</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Hold|Open|0]">
+      <Key>260059143</Key>
+      <Revision>2</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Hold]">On Hold</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Hold|Open|3]">
+      <Key>260085760</Key>
+      <Revision>1</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Hold]">On Hold</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Site|Completed|0]">
+      <Key>125945867</Key>
+      <Revision>3</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Site]">On Site</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Completed]">Completed</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Site|Field Suspend|0]">
+      <Key>260059137</Key>
+      <Revision>2</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Site]">On Site</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Field Suspend]">Field Suspend</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Site|Incomplete|0]">
+      <Key>125945866</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Site]">On Site</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Incomplete]">Incomplete</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Site|On Hold|0]">
+      <Key>260073477</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Site]">On Site</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Hold]">On Hold</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Site|On Site|6]">
+      <Key>125945881</Key>
+      <Revision>2</Revision>
+      <Name>Lock Engineer</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Site]">On Site</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Site]">On Site</StatusAfter>
+      <StatusContext>6</StatusContext>
+      <Users />
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[On Site|On Site|8]">
+      <Key>125945880</Key>
+      <Revision>1</Revision>
+      <Name>Lock Start</Name>
+      <StatusBefore xoom:ref="TaskStatus[On Site]">On Site</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Site]">On Site</StatusAfter>
+      <StatusContext>8</StatusContext>
+      <Users>
+        <Name />
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Open|Cancelled|0]">
+      <Key>125945863</Key>
+      <Revision>9</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Open]">Open</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Cancelled]">Cancelled</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>SaskEnergy.Integration</Name>
+        <Name>BizTalk</Name>
+        <Name>NETWORK SERVICE</Name>
+        <Name>SEQ-MHC-INT01\ClickCGIUAT</Name>
+        <Name>SEQ-MHC-INT01\ClickUAT</Name>
+        <Name>SEQ-MHC-INT02\ClickCGIUAT</Name>
+        <Name>SEQ-MHC-INT02\ClickUAT</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Open|On Hold|0]">
+      <Key>260059142</Key>
+      <Revision>2</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Open]">Open</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Hold]">On Hold</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Open|Open|13]">
+      <Key>125945873</Key>
+      <Revision>1</Revision>
+      <Name>Allow Task Create In Status</Name>
+      <StatusBefore xoom:ref="TaskStatus[Open]">Open</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>13</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Open|Open|15]">
+      <Key>125945877</Key>
+      <Revision>1</Revision>
+      <Name>Default Task Status</Name>
+      <StatusBefore xoom:ref="TaskStatus[Open]">Open</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>15</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Open|Scheduled|1]">
+      <Key>125945886</Key>
+      <Revision>1</Revision>
+      <Name>Status Change On Schedule</Name>
+      <StatusBefore xoom:ref="TaskStatus[Open]">Open</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusAfter>
+      <StatusContext>1</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Scheduled|Cancelled|0]">
+      <Key>260100096</Key>
+      <Revision>8</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Cancelled]">Cancelled</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Scheduled|Cancelled|3]">
+      <Key>260059145</Key>
+      <Revision>9</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Cancelled]">Cancelled</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Scheduled|Dispatched|0]">
+      <Key>125945871</Key>
+      <Revision>1</Revision>
+      <Name>Allow Status change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusAfter>
+      <StatusContext>0</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Scheduled|On Hold|3]">
+      <Key>260059141</Key>
+      <Revision>2</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[On Hold]">On Hold</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Scheduled|Open|1]">
+      <Key>260083713</Key>
+      <Revision>1</Revision>
+      <Name>Status Change On Schedule</Name>
+      <StatusBefore xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>1</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Scheduled|Open|2]">
+      <Key>125945888</Key>
+      <Revision>1</Revision>
+      <Name>Status Change On UnSchedule</Name>
+      <StatusBefore xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>2</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+    <StatusTransition xoom:id="StatusTransition[Scheduled|Open|3]">
+      <Key>260096000</Key>
+      <Revision>2</Revision>
+      <Name>UnSchedule On Status Change</Name>
+      <StatusBefore xoom:ref="TaskStatus[Scheduled]">Scheduled</StatusBefore>
+      <StatusAfter xoom:ref="TaskStatus[Open]">Open</StatusAfter>
+      <StatusContext>3</StatusContext>
+      <Users>
+        <Name>ALL USERS</Name>
+      </Users>
+    </StatusTransition>
+  </StatusTransition>
+</Configuration>
