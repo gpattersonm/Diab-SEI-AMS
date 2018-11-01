@@ -71,17 +71,6 @@
         <Name>SEQ-MHC-INT02\ClickUAT</Name>
       </Users>
     </StatusTransition>
-    <StatusTransition xoom:id="StatusTransition[Dispatched|Dispatched|6]">
-      <Key>125945884</Key>
-      <Revision>1</Revision>
-      <Name>Lock Engineer</Name>
-      <StatusBefore xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusBefore>
-      <StatusAfter xoom:ref="TaskStatus[Dispatched]">Dispatched</StatusAfter>
-      <StatusContext>6</StatusContext>
-      <Users>
-        <Name />
-      </Users>
-    </StatusTransition>
     <StatusTransition xoom:id="StatusTransition[Dispatched|En Route|0]">
       <Key>125945862</Key>
       <Revision>2</Revision>
