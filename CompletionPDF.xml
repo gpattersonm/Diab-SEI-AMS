@@ -62,7 +62,7 @@
             <Row />
             <Section Title="General Information" />
             <Row>
-                <Field Property="Task.LineLocate.MoreLocatesToSatisfy" Title="More Locates are still required to satisfy locate request at" Style="BoldTitle" AlwaysShow="true" colspan="3" />
+                <Field Property="Task.LineLocate.MoreLocatesToSatisfy" Title="More Locates are still required to satisfy locate request at" Style="Warning" AlwaysShow="true" colspan="3" />
             </Row>
             <Row>
                 <Field Property="Task.LineLocate.AddressOfCompletedLocates" Title="Address(s) of Completed Locates" AlwaysShow="true" colspan="2" col="1" />
