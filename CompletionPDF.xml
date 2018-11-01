@@ -152,7 +152,12 @@
             </Row>
             <Row />
             <Row>
-                <Field Property="Text" Style="Enlarged" colspan="3">Questions or incase of an Emergency  Call:\nSaskEnergy 1-888-700-0427 (Option 3)\nTransGas and Many Islands  1-306-777-9800</Field>
+                <Field Property="Text" Style="Bold" col="1" colspan="1">In Case of an Emergency Call:</Field>
+                <Field Property="Text" Style="Bold" col="2" colspan="1">For General Inquiries Call:</Field>
+            </Row>
+            <Row>
+                <Field Property="Text" col="1" colspan="1">SaskEnergy: 1-888-700-0427 (Option 1)\nTransGas and Many Island Pipelines: 1-306-777-9800</Field>
+                <Field Property="Text" col="2" colspan="1">SaskEnergy: 1-888-700-0427 (choose from the menu)\nTransGas and Many Island Pipelines: 1-306-777-9666</Field>
             </Row>
             <Row>
                 <Field Property="Text" Style="Reduced" col="1">Revised Date: June 2017</Field>
