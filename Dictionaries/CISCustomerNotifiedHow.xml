@@ -118,6 +118,7 @@
                 <TaskType xoom:ref="TaskType[LeakSvAGC]">LeakSvAGC</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGB]">LeakSvUGB</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGC]">LeakSvUGC</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISCustomerNotifiedHow>
         <CISCustomerNotifiedHow xoom:id="CISCustomerNotifiedHow[No Contact Made with Customer]">
@@ -237,6 +238,7 @@
                 <TaskType xoom:ref="TaskType[LeakSvAGC]">LeakSvAGC</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGB]">LeakSvUGB</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGC]">LeakSvUGC</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISCustomerNotifiedHow>
         <CISCustomerNotifiedHow xoom:id="CISCustomerNotifiedHow[Phoned customer, contact made]">
@@ -356,6 +358,7 @@
                 <TaskType xoom:ref="TaskType[LeakSvAGC]">LeakSvAGC</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGB]">LeakSvUGB</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGC]">LeakSvUGC</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISCustomerNotifiedHow>
         <CISCustomerNotifiedHow xoom:id="CISCustomerNotifiedHow[Phoned customer, left voicemail]">
@@ -475,6 +478,7 @@
                 <TaskType xoom:ref="TaskType[LeakSvAGC]">LeakSvAGC</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGB]">LeakSvUGB</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGC]">LeakSvUGC</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISCustomerNotifiedHow>
         <CISCustomerNotifiedHow xoom:id="CISCustomerNotifiedHow[Phoned customer, no answer]">
@@ -594,6 +598,7 @@
                 <TaskType xoom:ref="TaskType[LeakSvAGC]">LeakSvAGC</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGB]">LeakSvUGB</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGC]">LeakSvUGC</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISCustomerNotifiedHow>
         <CISCustomerNotifiedHow xoom:id="CISCustomerNotifiedHow[Tagged Premise]">
@@ -713,6 +718,7 @@
                 <TaskType xoom:ref="TaskType[LeakSvAGC]">LeakSvAGC</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGB]">LeakSvUGB</TaskType>
                 <TaskType xoom:ref="TaskType[LeakSvUGC]">LeakSvUGC</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISCustomerNotifiedHow>
     </CISCustomerNotifiedHow>
