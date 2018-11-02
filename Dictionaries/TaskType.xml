@@ -11425,6 +11425,41 @@
             </URLs>
             <SchedulePriorityCategory xoom:ref="SchedulePriorityCategory[Regular]">Regular</SchedulePriorityCategory>
         </TaskType>
+        <TaskType xoom:id="TaskType[SELMACustCon]">
+            <Key>124891136</Key>
+            <Revision>1</Revision>
+            <Name>SELMACustCon</Name>
+            <Duration>0</Duration>
+            <RequiredSkills />
+            <TaskRevenue>0</TaskRevenue>
+            <TimeUnit>0</TimeUnit>
+            <CostPerTimeUnit>0</CostPerTimeUnit>
+            <TaskTypeCategory xoom:ref="TaskTypeCategory[CIS SELMA]">CIS SELMA</TaskTypeCategory>
+            <Priority>0</Priority>
+            <EarlyStartDiff>0</EarlyStartDiff>
+            <DueDateDiff>0</DueDateDiff>
+            <Description>SELMA Customer Connect</Description>
+            <PreferredEngineerTypeRural Key="-1" />
+            <PreferredEngineerTypeUrban Key="-1" />
+            <RequiredTools />
+            <RequiredSharedTools />
+            <TaskCalendar Key="-1" />
+            <RequiredParts />
+            <MandatoryAttachmentROL>0</MandatoryAttachmentROL>
+            <QEngineStart xoom:ref="QEngine_Start[CIS General]">CIS General</QEngineStart>
+            <MeterLogic Key="-1" />
+            <URL1 />
+            <QEMeterReadMandatory>0</QEMeterReadMandatory>
+            <QEMeterReadNotMandatory>0</QEMeterReadNotMandatory>
+            <QEInstallMeter>0</QEInstallMeter>
+            <QEAMI>0</QEAMI>
+            <QESelmaInquiry>1</QESelmaInquiry>
+            <QESelmaEncroachment>0</QESelmaEncroachment>
+            <QESelmaWork>0</QESelmaWork>
+            <QEPressureMonitor>0</QEPressureMonitor>
+            <URLs />
+            <SchedulePriorityCategory xoom:ref="SchedulePriorityCategory[Regular]">Regular</SchedulePriorityCategory>
+        </TaskType>
         <TaskType xoom:id="TaskType[SELMAField]">
             <Key>124821608</Key>
             <Revision>17</Revision>
