@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <CISServiceLineStatus>
+        <CISServiceLineStatus xoom:id="CISServiceLineStatus[Installed / Connected]">
+            <Key>1166016513</Key>
+            <Revision>4</Revision>
+            <Name>Installed / Connected</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+                <TaskType xoom:ref="TaskType[NewServ]">NewServ</TaskType>
+                <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+            </TaskTypes>
+        </CISServiceLineStatus>
+        <CISServiceLineStatus xoom:id="CISServiceLineStatus[N/A]">
+            <Key>1166016512</Key>
+            <Revision>18</Revision>
+            <Name>N/A</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
+                <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAField]">SELMAField</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
+                <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
+            </TaskTypes>
+        </CISServiceLineStatus>
+        <CISServiceLineStatus xoom:id="CISServiceLineStatus[No Gas Lines Yet 268]">
+            <Key>1166016514</Key>
+            <Revision>2</Revision>
+            <Name>No Gas Lines Yet 268</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+            </TaskTypes>
+        </CISServiceLineStatus>
+        <CISServiceLineStatus xoom:id="CISServiceLineStatus[Retired/Abolished268]">
+            <Key>1166016515</Key>
+            <Revision>2</Revision>
+            <Name>Retired/Abolished268</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+            </TaskTypes>
+        </CISServiceLineStatus>
+        <CISServiceLineStatus xoom:id="CISServiceLineStatus[Retired/Abolished271]">
+            <Key>1166016517</Key>
+            <Revision>2</Revision>
+            <Name>Retired/Abolished271</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Retire]">Retire</TaskType>
+            </TaskTypes>
+        </CISServiceLineStatus>
+        <CISServiceLineStatus xoom:id="CISServiceLineStatus[Temp Cutback     268]">
+            <Key>1166016516</Key>
+            <Revision>2</Revision>
+            <Name>Temp Cutback     268</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+            </TaskTypes>
+        </CISServiceLineStatus>
+    </CISServiceLineStatus>
+</Configuration>
