@@ -3,7 +3,7 @@
     <CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Alter Above Ground - See Comments]">
             <Key>1166016512</Key>
-            <Revision>18</Revision>
+            <Revision>19</Revision>
             <Name>Alter Above Ground - See Comments</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -23,11 +23,12 @@
                 <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
                 <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Alter Underground - See Comments]">
             <Key>1166016513</Key>
-            <Revision>18</Revision>
+            <Revision>19</Revision>
             <Name>Alter Underground - See Comments</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -47,11 +48,12 @@
                 <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
                 <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Bracket Required]">
             <Key>1166016520</Key>
-            <Revision>12</Revision>
+            <Revision>13</Revision>
             <Name>Bracket Required</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
@@ -64,11 +66,12 @@
                 <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
                 <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Design/Engineering]">
             <Key>1166016521</Key>
-            <Revision>12</Revision>
+            <Revision>13</Revision>
             <Name>Design/Engineering</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
@@ -81,6 +84,7 @@
                 <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
                 <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Encroach Job Code]">
@@ -93,7 +97,7 @@
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Inquiry Job Code Required]">
             <Key>1166016525</Key>
-            <Revision>10</Revision>
+            <Revision>11</Revision>
             <Name>Inquiry Job Code Required</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
@@ -104,11 +108,12 @@
                 <TaskType xoom:ref="TaskType[SELMAField]">SELMAField</TaskType>
                 <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
                 <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[New Serv(Area) Job Code Required]">
             <Key>1166016522</Key>
-            <Revision>12</Revision>
+            <Revision>13</Revision>
             <Name>New Serv(Area) Job Code Required</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
@@ -122,11 +127,12 @@
                 <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Other (See Comments)]">
             <Key>1166016515</Key>
-            <Revision>18</Revision>
+            <Revision>19</Revision>
             <Name>Other (See Comments)</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -148,6 +154,7 @@
                 <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
                 <TaskType xoom:ref="TaskType[TstLdSgnRp]">TstLdSgnRp</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Ready 4 Const - Rebuild/Relite FA next]">
@@ -179,7 +186,7 @@
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Ready for Construction]">
             <Key>1166016523</Key>
-            <Revision>14</Revision>
+            <Revision>15</Revision>
             <Name>Ready for Construction</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
@@ -194,6 +201,7 @@
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
                 <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
                 <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Reinstall by Area]">
@@ -226,7 +234,7 @@
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[SelmaField]">
             <Key>1166016516</Key>
-            <Revision>16</Revision>
+            <Revision>17</Revision>
             <Name>SelmaField</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -245,11 +253,12 @@
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
                 <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[SelmaOffic]">
             <Key>1166016517</Key>
-            <Revision>16</Revision>
+            <Revision>17</Revision>
             <Name>SelmaOffic</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -268,11 +277,12 @@
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
                 <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[Staking Required]">
             <Key>1166016527</Key>
-            <Revision>11</Revision>
+            <Revision>12</Revision>
             <Name>Staking Required</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
@@ -284,6 +294,7 @@
                 <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
                 <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNextSteps>
         <CISSelmaNextSteps xoom:id="CISSelmaNextSteps[TracerBrk]">
