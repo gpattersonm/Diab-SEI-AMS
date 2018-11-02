@@ -28,13 +28,14 @@
         </CISSelmaNotProceedingReason>
         <CISSelmaNotProceedingReason xoom:id="CISSelmaNotProceedingReason[Cost too high]">
             <Key>1166016515</Key>
-            <Revision>5</Revision>
+            <Revision>6</Revision>
             <Name>Cost too high</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
                 <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNotProceedingReason>
         <CISSelmaNotProceedingReason xoom:id="CISSelmaNotProceedingReason[Cust to Repair]">
@@ -63,18 +64,19 @@
         </CISSelmaNotProceedingReason>
         <CISSelmaNotProceedingReason xoom:id="CISSelmaNotProceedingReason[Not proceeding]">
             <Key>1166016519</Key>
-            <Revision>5</Revision>
+            <Revision>6</Revision>
             <Name>Not proceeding</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
                 <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNotProceedingReason>
         <CISSelmaNotProceedingReason xoom:id="CISSelmaNotProceedingReason[Other (See Comments)]">
             <Key>1166016520</Key>
-            <Revision>6</Revision>
+            <Revision>7</Revision>
             <Name>Other (See Comments)</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
@@ -82,15 +84,17 @@
                 <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNotProceedingReason>
         <CISSelmaNotProceedingReason xoom:id="CISSelmaNotProceedingReason[Using other fuel source]">
             <Key>1166016521</Key>
-            <Revision>3</Revision>
+            <Revision>4</Revision>
             <Name>Using other fuel source</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaNotProceedingReason>
     </CISSelmaNotProceedingReason>
