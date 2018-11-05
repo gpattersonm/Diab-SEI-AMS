@@ -313,7 +313,7 @@
             <DefaultValue>""</DefaultValue>
             <ReferenceType>RegularString</ReferenceType>
             <OutputInMinutes>False</OutputInMinutes>
-            <LengthOfString>25</LengthOfString>
+            <LengthOfString>128</LengthOfString>
         </Attribute>
         <Attribute>
             <ID>14</ID>
