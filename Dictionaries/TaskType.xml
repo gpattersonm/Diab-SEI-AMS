@@ -11427,10 +11427,15 @@
         </TaskType>
         <TaskType xoom:id="TaskType[SELMACustCon]">
             <Key>124891136</Key>
-            <Revision>1</Revision>
+            <Revision>2</Revision>
             <Name>SELMACustCon</Name>
             <Duration>0</Duration>
-            <RequiredSkills />
+            <RequiredSkills>
+                <TaskTypeSkill>
+                    <SkillKey xoom:ref="Skill[SELMACustCon]">SELMACustCon</SkillKey>
+                    <SkillLevel>0</SkillLevel>
+                </TaskTypeSkill>
+            </RequiredSkills>
             <TaskRevenue>0</TaskRevenue>
             <TimeUnit>0</TimeUnit>
             <CostPerTimeUnit>0</CostPerTimeUnit>
