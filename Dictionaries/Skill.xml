@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <Skill>
+        <Skill xoom:id="Skill[1. Cascade]">
+            <Key>125065382</Key>
+            <Revision>5</Revision>
+            <Name>1. Cascade</Name>
+        </Skill>
+        <Skill xoom:id="Skill[1. LHMtnce]">
+            <Key>125065339</Key>
+            <Revision>5</Revision>
+            <Name>1. LHMtnce</Name>
+        </Skill>
+        <Skill xoom:id="Skill[1. OdorInjSyM]">
+            <Key>125077505</Key>
+            <Revision>3</Revision>
+            <Name>1. OdorInjSyM</Name>
+        </Skill>
+        <Skill xoom:id="Skill[1. OdorVG&amp;ERM]">
+            <Key>125077504</Key>
+            <Revision>3</Revision>
+            <Name>1. OdorVG&amp;ERM</Name>
+        </Skill>
+        <Skill xoom:id="Skill[1. OneWorldShare5]">
+            <Key>125069343</Key>
+            <Revision>4</Revision>
+            <Name>1. OneWorldShare5</Name>
+        </Skill>
+        <Skill xoom:id="Skill[1. PlandOutag]">
+            <Key>125069323</Key>
+            <Revision>4</Revision>
+            <Name>1. PlandOutag</Name>
+        </Skill>
+        <Skill xoom:id="Skill[1. StnAudit]">
+            <Key>125077506</Key>
+            <Revision>3</Revision>
+            <Name>1. StnAudit</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Accident]">
+            <Key>125065397</Key>
+            <Revision>4</Revision>
+            <Name>Accident</Name>
+        </Skill>
+        <Skill xoom:id="Skill[AlarmOdor]">
+            <Key>125065394</Key>
+            <Revision>4</Revision>
+            <Name>AlarmOdor</Name>
+        </Skill>
+        <Skill xoom:id="Skill[AlarmOffic]">
+            <Key>125065393</Key>
+            <Revision>4</Revision>
+            <Name>AlarmOffic</Name>
+        </Skill>
+        <Skill xoom:id="Skill[AlarmStnEn]">
+            <Key>125065390</Key>
+            <Revision>4</Revision>
+            <Name>AlarmStnEn</Name>
+        </Skill>
+        <Skill xoom:id="Skill[AlterUG]">
+            <Key>125065387</Key>
+            <Revision>4</Revision>
+            <Name>AlterUG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[AMIMtnce]">
+            <Key>125065386</Key>
+            <Revision>4</Revision>
+            <Name>AMIMtnce</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Assist]">
+            <Key>125065385</Key>
+            <Revision>4</Revision>
+            <Name>Assist</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Bracket]">
+            <Key>125065383</Key>
+            <Revision>4</Revision>
+            <Name>Bracket</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Calibratn]">
+            <Key>125069340</Key>
+            <Revision>3</Revision>
+            <Name>Calibratn</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare1]">
+            <Key>125069325</Key>
+            <Revision>3</Revision>
+            <Name>CISShare1</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare10]">
+            <Key>125069314</Key>
+            <Revision>3</Revision>
+            <Name>CISShare10</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare11]">
+            <Key>125069313</Key>
+            <Revision>3</Revision>
+            <Name>CISShare11</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare12]">
+            <Key>125069330</Key>
+            <Revision>3</Revision>
+            <Name>CISShare12</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare2]">
+            <Key>125069312</Key>
+            <Revision>3</Revision>
+            <Name>CISShare2</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare3]">
+            <Key>125069331</Key>
+            <Revision>3</Revision>
+            <Name>CISShare3</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare4]">
+            <Key>125069319</Key>
+            <Revision>3</Revision>
+            <Name>CISShare4</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare5]">
+            <Key>125069320</Key>
+            <Revision>3</Revision>
+            <Name>CISShare5</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare6]">
+            <Key>125069321</Key>
+            <Revision>3</Revision>
+            <Name>CISShare6</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare7]">
+            <Key>125069317</Key>
+            <Revision>3</Revision>
+            <Name>CISShare7</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare8]">
+            <Key>125069327</Key>
+            <Revision>3</Revision>
+            <Name>CISShare8</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CISShare9]">
+            <Key>125069315</Key>
+            <Revision>3</Revision>
+            <Name>CISShare9</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CO]">
+            <Key>125065379</Key>
+            <Revision>4</Revision>
+            <Name>CO</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CPClPtExcp]">
+            <Key>125065376</Key>
+            <Revision>4</Revision>
+            <Name>CPClPtExcp</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CPManRd]">
+            <Key>125065375</Key>
+            <Revision>4</Revision>
+            <Name>CPManRd</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CPSectExcp]">
+            <Key>125065371</Key>
+            <Revision>4</Revision>
+            <Name>CPSectExcp</Name>
+        </Skill>
+        <Skill xoom:id="Skill[CrossSupv2]">
+            <Key>125065370</Key>
+            <Revision>4</Revision>
+            <Name>CrossSupv2</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Encroach]">
+            <Key>125065363</Key>
+            <Revision>4</Revision>
+            <Name>Encroach</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Explosion]">
+            <Key>125065362</Key>
+            <Revision>4</Revision>
+            <Name>Explosion</Name>
+        </Skill>
+        <Skill xoom:id="Skill[ExposedGL]">
+            <Key>125065361</Key>
+            <Revision>4</Revision>
+            <Name>ExposedGL</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Fire]">
+            <Key>125065360</Key>
+            <Revision>4</Revision>
+            <Name>Fire</Name>
+        </Skill>
+        <Skill xoom:id="Skill[FlxHsPTest]">
+            <Key>125065356</Key>
+            <Revision>5</Revision>
+            <Name>FlxHsPTest</Name>
+        </Skill>
+        <Skill xoom:id="Skill[FlxHsTagVr]">
+            <Key>125065355</Key>
+            <Revision>4</Revision>
+            <Name>FlxHsTagVr</Name>
+        </Skill>
+        <Skill xoom:id="Skill[GasQualCk]">
+            <Key>125065354</Key>
+            <Revision>4</Revision>
+            <Name>GasQualCk</Name>
+        </Skill>
+        <Skill xoom:id="Skill[GlyAnyls]">
+            <Key>125065353</Key>
+            <Revision>4</Revision>
+            <Name>GlyAnyls</Name>
+        </Skill>
+        <Skill xoom:id="Skill[GroundEmrg]">
+            <Key>125065352</Key>
+            <Revision>4</Revision>
+            <Name>GroundEmrg</Name>
+        </Skill>
+        <Skill xoom:id="Skill[GroundRout]">
+            <Key>125065351</Key>
+            <Revision>4</Revision>
+            <Name>GroundRout</Name>
+        </Skill>
+        <Skill xoom:id="Skill[GuardInst]">
+            <Key>125065350</Key>
+            <Revision>4</Revision>
+            <Name>GuardInst</Name>
+        </Skill>
+        <Skill xoom:id="Skill[HomeCheck]">
+            <Key>125065349</Key>
+            <Revision>4</Revision>
+            <Name>HomeCheck</Name>
+        </Skill>
+        <Skill xoom:id="Skill[InqAltSM]">
+            <Key>125065347</Key>
+            <Revision>4</Revision>
+            <Name>InqAltSM</Name>
+        </Skill>
+        <Skill xoom:id="Skill[InqNewSerS]">
+            <Key>125065345</Key>
+            <Revision>4</Revision>
+            <Name>InqNewSerS</Name>
+        </Skill>
+        <Skill xoom:id="Skill[IO]">
+            <Key>125065344</Key>
+            <Revision>4</Revision>
+            <Name>IO</Name>
+        </Skill>
+        <Skill xoom:id="Skill[IsolatnRep]">
+            <Key>125069322</Key>
+            <Revision>3</Revision>
+            <Name>IsolatnRep</Name>
+        </Skill>
+        <Skill xoom:id="Skill[LeakSurvAG]">
+            <Key>125065343</Key>
+            <Revision>3</Revision>
+            <Name>LeakSurvAG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[LeakSurvUG]">
+            <Key>125065342</Key>
+            <Revision>4</Revision>
+            <Name>LeakSurvUG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[LocAnVerf]">
+            <Key>125065318</Key>
+            <Revision>4</Revision>
+            <Name>LocAnVerf</Name>
+        </Skill>
+        <Skill xoom:id="Skill[LocEmerg]">
+            <Key>125065317</Key>
+            <Revision>4</Revision>
+            <Name>LocEmerg</Name>
+        </Skill>
+        <Skill xoom:id="Skill[MtnceLkChk]">
+            <Key>125065313</Key>
+            <Revision>4</Revision>
+            <Name>MtnceLkChk</Name>
+        </Skill>
+        <Skill xoom:id="Skill[MtnceLkSuv]">
+            <Key>125065312</Key>
+            <Revision>4</Revision>
+            <Name>MtnceLkSuv</Name>
+        </Skill>
+        <Skill xoom:id="Skill[MtrBuild]">
+            <Key>125065311</Key>
+            <Revision>4</Revision>
+            <Name>MtrBuild</Name>
+        </Skill>
+        <Skill xoom:id="Skill[MtrChkLG]">
+            <Key>125065310</Key>
+            <Revision>4</Revision>
+            <Name>MtrChkLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[MtrExLG]">
+            <Key>125065308</Key>
+            <Revision>4</Revision>
+            <Name>MtrExLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[MtrMoveLG]">
+            <Key>125065304</Key>
+            <Revision>4</Revision>
+            <Name>MtrMoveLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[MtrRemLG]">
+            <Key>125065301</Key>
+            <Revision>4</Revision>
+            <Name>MtrRemLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[NewServ]">
+            <Key>125065299</Key>
+            <Revision>4</Revision>
+            <Name>NewServ</Name>
+        </Skill>
+        <Skill xoom:id="Skill[NoisyMtrL]">
+            <Key>125065296</Key>
+            <Revision>4</Revision>
+            <Name>NoisyMtrL</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OdorTrkAI]">
+            <Key>125069342</Key>
+            <Revision>4</Revision>
+            <Name>OdorTrkAI</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OilTrapMt]">
+            <Key>125065281</Key>
+            <Revision>4</Revision>
+            <Name>OilTrapMt</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare1]">
+            <Key>125069332</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare1</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare10]">
+            <Key>125069341</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare10</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare2]">
+            <Key>125069333</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare2</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare3]">
+            <Key>125069339</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare3</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare4]">
+            <Key>125069334</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare4</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare6]">
+            <Key>125069335</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare6</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare7]">
+            <Key>125069337</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare7</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare8]">
+            <Key>125069336</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare8</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OneWorldShare9]">
+            <Key>125069345</Key>
+            <Revision>3</Revision>
+            <Name>OneWorldShare9</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OO]">
+            <Key>125065280</Key>
+            <Revision>4</Revision>
+            <Name>OO</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Other]">
+            <Key>125065279</Key>
+            <Revision>4</Revision>
+            <Name>Other</Name>
+        </Skill>
+        <Skill xoom:id="Skill[OWExcp]">
+            <Key>125069338</Key>
+            <Revision>3</Revision>
+            <Name>OWExcp</Name>
+        </Skill>
+        <Skill xoom:id="Skill[PressMontr]">
+            <Key>125065277</Key>
+            <Revision>4</Revision>
+            <Name>PressMontr</Name>
+        </Skill>
+        <Skill xoom:id="Skill[PressrCkLG]">
+            <Key>125069318</Key>
+            <Revision>3</Revision>
+            <Name>PressrCkLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[RebuildLG]">
+            <Key>125065275</Key>
+            <Revision>4</Revision>
+            <Name>RebuildLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[RectLoc]">
+            <Key>125065271</Key>
+            <Revision>4</Revision>
+            <Name>RectLoc</Name>
+        </Skill>
+        <Skill xoom:id="Skill[RehangLG]">
+            <Key>125065267</Key>
+            <Revision>4</Revision>
+            <Name>RehangLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[ReliteSEIL]">
+            <Key>125065264</Key>
+            <Revision>4</Revision>
+            <Name>ReliteSEIL</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Retire]">
+            <Key>125065262</Key>
+            <Revision>4</Revision>
+            <Name>Retire</Name>
+        </Skill>
+        <Skill xoom:id="Skill[SafetyMon]">
+            <Key>125069329</Key>
+            <Revision>3</Revision>
+            <Name>SafetyMon</Name>
+        </Skill>
+        <Skill xoom:id="Skill[SELMAField]">
+            <Key>125065258</Key>
+            <Revision>4</Revision>
+            <Name>SELMAField</Name>
+        </Skill>
+        <Skill xoom:id="Skill[SELMAOffic]">
+            <Key>125065257</Key>
+            <Revision>4</Revision>
+            <Name>SELMAOffic</Name>
+        </Skill>
+        <Skill xoom:id="Skill[SignMaint]">
+            <Key>125065254</Key>
+            <Revision>4</Revision>
+            <Name>SignMaint</Name>
+        </Skill>
+        <Skill xoom:id="Skill[Spill]">
+            <Key>125065253</Key>
+            <Revision>4</Revision>
+            <Name>Spill</Name>
+        </Skill>
+        <Skill xoom:id="Skill[SqzAnVerf]">
+            <Key>125065252</Key>
+            <Revision>4</Revision>
+            <Name>SqzAnVerf</Name>
+        </Skill>
+        <Skill xoom:id="Skill[StakingLG]">
+            <Key>125065251</Key>
+            <Revision>4</Revision>
+            <Name>StakingLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[StakingSM]">
+            <Key>125065250</Key>
+            <Revision>4</Revision>
+            <Name>StakingSM</Name>
+        </Skill>
+        <Skill xoom:id="Skill[StnLkSurv]">
+            <Key>125065248</Key>
+            <Revision>4</Revision>
+            <Name>StnLkSurv</Name>
+        </Skill>
+        <Skill xoom:id="Skill[StnPaint]">
+            <Key>125065246</Key>
+            <Revision>4</Revision>
+            <Name>StnPaint</Name>
+        </Skill>
+        <Skill xoom:id="Skill[StnRisInsp]">
+            <Key>125065244</Key>
+            <Revision>4</Revision>
+            <Name>StnRisInsp</Name>
+        </Skill>
+        <Skill xoom:id="Skill[T/OnAirLG]">
+            <Key>125065238</Key>
+            <Revision>4</Revision>
+            <Name>T/OnAirLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[T/OnLG]">
+            <Key>125065236</Key>
+            <Revision>4</Revision>
+            <Name>T/OnLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[TagExchgLG]">
+            <Key>125069316</Key>
+            <Revision>3</Revision>
+            <Name>TagExchgLG</Name>
+        </Skill>
+        <Skill xoom:id="Skill[TestLeadMt]">
+            <Key>125065230</Key>
+            <Revision>4</Revision>
+            <Name>TestLeadMt</Name>
+        </Skill>
+        <Skill xoom:id="Skill[TracerBrk]">
+            <Key>125065228</Key>
+            <Revision>4</Revision>
+            <Name>TracerBrk</Name>
+        </Skill>
+        <Skill xoom:id="Skill[TstLdSgnRp]">
+            <Key>125065227</Key>
+            <Revision>4</Revision>
+            <Name>TstLdSgnRp</Name>
+        </Skill>
+        <Skill xoom:id="Skill[UGEntInsp]">
+            <Key>125065226</Key>
+            <Revision>4</Revision>
+            <Name>UGEntInsp</Name>
+        </Skill>
+        <Skill xoom:id="Skill[UGEntRep]">
+            <Key>125065225</Key>
+            <Revision>4</Revision>
+            <Name>UGEntRep</Name>
+        </Skill>
+        <Skill xoom:id="Skill[V&amp;CInsp]">
+            <Key>125065223</Key>
+            <Revision>4</Revision>
+            <Name>V&amp;CInsp</Name>
+        </Skill>
+        <Skill xoom:id="Skill[VlvGrWnCk]">
+            <Key>125065221</Key>
+            <Revision>4</Revision>
+            <Name>VlvGrWnCk</Name>
+        </Skill>
+        <Skill xoom:id="Skill[VlvMtceAG]">
+            <Key>125065218</Key>
+            <Revision>4</Revision>
+            <Name>VlvMtceAG</Name>
+        </Skill>
+    </Skill>
+</Configuration>

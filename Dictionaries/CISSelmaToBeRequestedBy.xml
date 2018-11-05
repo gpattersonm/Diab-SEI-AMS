@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <CISSelmaToBeRequestedBy>
+        <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[Contractor]">
+            <Key>1166016512</Key>
+            <Revision>19</Revision>
+            <Name>Contractor</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+                <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[NewServ]">NewServ</TaskType>
+                <TaskType xoom:ref="TaskType[Retire]">Retire</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAField]">SELMAField</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
+                <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
+                <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+            </TaskTypes>
+        </CISSelmaToBeRequestedBy>
+        <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[Customer]">
+            <Key>1166016513</Key>
+            <Revision>19</Revision>
+            <Name>Customer</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+                <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[NewServ]">NewServ</TaskType>
+                <TaskType xoom:ref="TaskType[Retire]">Retire</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAField]">SELMAField</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
+                <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
+                <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
+                <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+            </TaskTypes>
+        </CISSelmaToBeRequestedBy>
+        <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[N/A]">
+            <Key>1166024704</Key>
+            <Revision>1</Revision>
+            <Name>N/A</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[TstLdSgnRp]">TstLdSgnRp</TaskType>
+                <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
+            </TaskTypes>
+        </CISSelmaToBeRequestedBy>
+        <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[Tech]">
+            <Key>1166016514</Key>
+            <Revision>19</Revision>
+            <Name>Tech</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+                <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[NewServ]">NewServ</TaskType>
+                <TaskType xoom:ref="TaskType[Retire]">Retire</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAField]">SELMAField</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
+                <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
+                <TaskType xoom:ref="TaskType[TstLdSgnRp]">TstLdSgnRp</TaskType>
+                <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
+                <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+            </TaskTypes>
+        </CISSelmaToBeRequestedBy>
+        <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[This Completion]">
+            <Key>1166016515</Key>
+            <Revision>19</Revision>
+            <Name>This Completion</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
+                <TaskType xoom:ref="TaskType[AlterUG]">AlterUG</TaskType>
+                <TaskType xoom:ref="TaskType[Bracket]">Bracket</TaskType>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[NewServ]">NewServ</TaskType>
+                <TaskType xoom:ref="TaskType[Retire]">Retire</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAField]">SELMAField</TaskType>
+                <TaskType xoom:ref="TaskType[SELMAOffic]">SELMAOffic</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+                <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
+                <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
+                <TaskType xoom:ref="TaskType[TstLdSgnRp]">TstLdSgnRp</TaskType>
+                <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
+                <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+            </TaskTypes>
+        </CISSelmaToBeRequestedBy>
+    </CISSelmaToBeRequestedBy>
+</Configuration>

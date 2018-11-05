@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <CISSelmaProceeding>
+        <CISSelmaProceeding xoom:id="CISSelmaProceeding[Encoachment Not Found]">
+            <Key>1166032896</Key>
+            <Revision>1</Revision>
+            <Name>Encoachment Not Found</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+            </TaskTypes>
+        </CISSelmaProceeding>
+        <CISSelmaProceeding xoom:id="CISSelmaProceeding[Encroachment Found]">
+            <Key>1166024704</Key>
+            <Revision>3</Revision>
+            <Name>Encroachment Found</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+            </TaskTypes>
+        </CISSelmaProceeding>
+        <CISSelmaProceeding xoom:id="CISSelmaProceeding[Encroachment Repaired]">
+            <Key>1166032897</Key>
+            <Revision>1</Revision>
+            <Name>Encroachment Repaired</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+            </TaskTypes>
+        </CISSelmaProceeding>
+        <CISSelmaProceeding xoom:id="CISSelmaProceeding[Maybe]">
+            <Key>1166016522</Key>
+            <Revision>6</Revision>
+            <Name>Maybe</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+            </TaskTypes>
+        </CISSelmaProceeding>
+        <CISSelmaProceeding xoom:id="CISSelmaProceeding[No]">
+            <Key>1166016524</Key>
+            <Revision>6</Revision>
+            <Name>No</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+            </TaskTypes>
+        </CISSelmaProceeding>
+        <CISSelmaProceeding xoom:id="CISSelmaProceeding[Yes]">
+            <Key>1166032898</Key>
+            <Revision>1</Revision>
+            <Name>Yes</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+            </TaskTypes>
+        </CISSelmaProceeding>
+    </CISSelmaProceeding>
+</Configuration>
