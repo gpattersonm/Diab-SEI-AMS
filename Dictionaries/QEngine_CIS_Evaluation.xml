@@ -1,0 +1,2975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval03a]">
+            <Key>128745623</Key>
+            <Revision>1</Revision>
+            <Name>AMIEval03a</Name>
+            <Expression>{{QEAMIBoolean1}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ04]">AMIQ04</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ10]">AMIQ10</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval06a]">
+            <Key>128745609</Key>
+            <Revision>1</Revision>
+            <Name>AMIEval06a</Name>
+            <Expression>{{GS120NotificationRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ08]">AMIQ08</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ10]">AMIQ10</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval07a]">
+            <Key>128745612</Key>
+            <Revision>1</Revision>
+            <Name>AMIEval07a</Name>
+            <Expression>{{GS120NotificationRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ08]">AMIQ08</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ10]">AMIQ10</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval10a]">
+            <Key>128745600</Key>
+            <Revision>2</Revision>
+            <Name>AMIEval10a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ11]">AMIQ11</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ12]">AMIQ12</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval13a]">
+            <Key>128745515</Key>
+            <Revision>1</Revision>
+            <Name>AMIEval13a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ14]">AMIQ14</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ15]">AMIQ15</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval14a]">
+            <Key>128745501</Key>
+            <Revision>1</Revision>
+            <Name>AMIEval14a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ15]">AMIQ15</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ15]">AMIQ15</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval15a]">
+            <Key>128745492</Key>
+            <Revision>1</Revision>
+            <Name>AMIEval15a</Name>
+            <Expression>{{QEAMIBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ17]">AMIQ17</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ17]">AMIQ17</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AMIEval17a]">
+            <Key>128745482</Key>
+            <Revision>1</Revision>
+            <Name>AMIEval17a</Name>
+            <Expression>{{QEAMIBoolean4}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ18]">AMIQ18</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AStart_CIS_Eval01]">
+            <Key>128745744</Key>
+            <Revision>1</Revision>
+            <Name>AStart_CIS_Eval01</Name>
+            <Expression>{{topParent.Task.QEngineStart}} == "CIS Job Complete"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ01]">MMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AStart_CIS_Q01a]">AStart_CIS_Q01a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AStart_CIS_Eval01a]">
+            <Key>128745738</Key>
+            <Revision>1</Revision>
+            <Name>AStart_CIS_Eval01a</Name>
+            <Expression>{{topParent.Task.QEngineStart}} == "CIS General"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[GENQ01]">GENQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AStart_CIS_Q01b]">AStart_CIS_Q01b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AStart_CIS_Eval01b]">
+            <Key>128745739</Key>
+            <Revision>1</Revision>
+            <Name>AStart_CIS_Eval01b</Name>
+            <Expression>{{topParent.Task.QEngineStart}} == "CIS Safety"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ01]">SAFQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AStart_CIS_Q01c]">AStart_CIS_Q01c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AStart_CIS_Eval01c]">
+            <Key>128745740</Key>
+            <Revision>14</Revision>
+            <Name>AStart_CIS_Eval01c</Name>
+            <Expression>{{topParent.Task.QEngineStart}} == "Arlen"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ01]">SAFQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AStart_CIS_Q01d]">AStart_CIS_Q01d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AStart_CIS_Eval01d]">
+            <Key>128745742</Key>
+            <Revision>31</Revision>
+            <Name>AStart_CIS_Eval01d</Name>
+            <Expression>{{topParent.Task.QEngineStart}} == "Marco"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[GENQ04]">GENQ04</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AStart_CIS_Q01e]">AStart_CIS_Q01e</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AStart_CIS_Eval01e]">
+            <Key>128745743</Key>
+            <Revision>3</Revision>
+            <Name>AStart_CIS_Eval01e</Name>
+            <Expression>{{topParent.Task.QEngineStart}} == "Michael"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ00]">LLQ00</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AStart_CIS_Q01f]">AStart_CIS_Q01f</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[AStart_CIS_Eval01f]">
+            <Key>128745741</Key>
+            <Revision>9</Revision>
+            <Name>AStart_CIS_Eval01f</Name>
+            <Expression>{{topParent.Task.QEngineStart}} == "Gary"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ01]">AMIQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[AStart_CIS_Q01ZError]">AStart_CIS_Q01ZError</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval011a]">
+            <Key>128761859</Key>
+            <Revision>1</Revision>
+            <Name>ENEval011a</Name>
+            <Expression>{{$contains("EncroachmentTypeOfLineImpacted", "Intermediate &amp; Medium Pressure (IP, MP, MP2) Mains &amp; Services")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ012]">ENQ012</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ084a]">ENQ084a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval012a]">
+            <Key>128745594</Key>
+            <Revision>1</Revision>
+            <Name>ENEval012a</Name>
+            <Expression>{{$contains("EncroachmentClass1", "Shrub (small)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ013]">ENQ013</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ013a]">ENQ013a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval013a]">
+            <Key>128745593</Key>
+            <Revision>1</Revision>
+            <Name>ENEval013a</Name>
+            <Expression>{{$contains("EncroachmentClass1", "Garden")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ014]">ENQ014</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ014a]">ENQ014a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval014a]">
+            <Key>128745592</Key>
+            <Revision>1</Revision>
+            <Name>ENEval014a</Name>
+            <Expression>{{$contains("EncroachmentClass1", "Fence")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ015]">ENQ015</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ015a]">ENQ015a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval015a]">
+            <Key>128745591</Key>
+            <Revision>2</Revision>
+            <Name>ENEval015a</Name>
+            <Expression>{{$contains("EncroachmentClass1", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ016]">ENQ016</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ017a]">ENQ017a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval017a]">
+            <Key>128763906</Key>
+            <Revision>1</Revision>
+            <Name>ENEval017a</Name>
+            <Expression>{{$contains("EncroachmentClass1", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ018]">ENQ018</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ018]">ENQ018</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval018a]">
+            <Key>128745590</Key>
+            <Revision>1</Revision>
+            <Name>ENEval018a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Berm")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ019]">ENQ019</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ020a]">ENQ020a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval020a]">
+            <Key>128745589</Key>
+            <Revision>1</Revision>
+            <Name>ENEval020a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Bulk Material Stockpile/Storage")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ021]">ENQ021</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ022a]">ENQ022a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval022a]">
+            <Key>128745588</Key>
+            <Revision>1</Revision>
+            <Name>ENEval022a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Pond")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ023]">ENQ023</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ024a]">ENQ024a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval024a]">
+            <Key>128745587</Key>
+            <Revision>1</Revision>
+            <Name>ENEval024a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Retaining Wall")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ025]">ENQ025</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ026a]">ENQ026a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval026a]">
+            <Key>128745586</Key>
+            <Revision>1</Revision>
+            <Name>ENEval026a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Site grading: Soil Added")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ027]">ENQ027</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ028a]">ENQ028a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval028a]">
+            <Key>128745585</Key>
+            <Revision>1</Revision>
+            <Name>ENEval028a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Site grading: Soil Removed")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ029]">ENQ029</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ030a]">ENQ030a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval030a]">
+            <Key>128745584</Key>
+            <Revision>1</Revision>
+            <Name>ENEval030a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Tree &gt; 5m tall")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ031]">ENQ031</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ032a]">ENQ032a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval032a]">
+            <Key>128745583</Key>
+            <Revision>1</Revision>
+            <Name>ENEval032a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ033]">ENQ033</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ035a]">ENQ035a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval035a]">
+            <Key>128745582</Key>
+            <Revision>1</Revision>
+            <Name>ENEval035a</Name>
+            <Expression>{{$contains("EncroachmentClass2", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ036]">ENQ036</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ036]">ENQ036</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval036a]">
+            <Key>128745581</Key>
+            <Revision>1</Revision>
+            <Name>ENEval036a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Anchor/Pilings")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ037]">ENQ037</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ038a]">ENQ038a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval038a]">
+            <Key>128745580</Key>
+            <Revision>1</Revision>
+            <Name>ENEval038a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Deck")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ039]">ENQ039</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ042a]">ENQ042a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval042a]">
+            <Key>128745579</Key>
+            <Revision>1</Revision>
+            <Name>ENEval042a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Pits (Ex: Fire, Gravel, etc)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ043]">ENQ043</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ044a]">ENQ044a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval044a]">
+            <Key>128745578</Key>
+            <Revision>1</Revision>
+            <Name>ENEval044a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Gazebo")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ045]">ENQ045</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ046a]">ENQ046a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval046a]">
+            <Key>128745577</Key>
+            <Revision>1</Revision>
+            <Name>ENEval046a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Grain Bin")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ047]">ENQ047</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ048a]">ENQ048a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval048a]">
+            <Key>128745576</Key>
+            <Revision>1</Revision>
+            <Name>ENEval048a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Green House")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ049]">ENQ049</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ051a]">ENQ051a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval051a]">
+            <Key>128745575</Key>
+            <Revision>1</Revision>
+            <Name>ENEval051a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Hot Tub")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ052]">ENQ052</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ053a]">ENQ053a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval053a]">
+            <Key>128745574</Key>
+            <Revision>1</Revision>
+            <Name>ENEval053a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Pool")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ054]">ENQ054</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ055a]">ENQ055a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval055a]">
+            <Key>128745573</Key>
+            <Revision>1</Revision>
+            <Name>ENEval055a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Posts/Poles")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ056]">ENQ056</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ057a]">ENQ057a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval057a]">
+            <Key>128745572</Key>
+            <Revision>1</Revision>
+            <Name>ENEval057a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Shed")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ058]">ENQ058</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ060a]">ENQ060a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval060a]">
+            <Key>128745571</Key>
+            <Revision>1</Revision>
+            <Name>ENEval060a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Tanks")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ061]">ENQ061</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ062a]">ENQ062a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval062a]">
+            <Key>128745570</Key>
+            <Revision>1</Revision>
+            <Name>ENEval062a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Tower")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ063]">ENQ063</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ064a]">ENQ064a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval064a]">
+            <Key>128745569</Key>
+            <Revision>2</Revision>
+            <Name>ENEval064a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ066]">ENQ066</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ068a]">ENQ068a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval068a]">
+            <Key>128763908</Key>
+            <Revision>1</Revision>
+            <Name>ENEval068a</Name>
+            <Expression>{{$contains("EncroachmentClass3", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ069]">ENQ069</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ069]">ENQ069</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval069a]">
+            <Key>128745568</Key>
+            <Revision>1</Revision>
+            <Name>ENEval069a</Name>
+            <Expression>{{$contains("EncroachmentClass4", "Barn")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ070]">ENQ070</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ071a]">ENQ071a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval071a]">
+            <Key>128745567</Key>
+            <Revision>1</Revision>
+            <Name>ENEval071a</Name>
+            <Expression>{{$contains("EncroachmentClass4", "Garage")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ072]">ENQ072</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ073a]">ENQ073a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval073a]">
+            <Key>128745566</Key>
+            <Revision>1</Revision>
+            <Name>ENEval073a</Name>
+            <Expression>{{$contains("EncroachmentClass4", "Quonset")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ074]">ENQ074</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ075a]">ENQ075a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval075a]">
+            <Key>128745565</Key>
+            <Revision>1</Revision>
+            <Name>ENEval075a</Name>
+            <Expression>{{$contains("EncroachmentClass4", "Sunroom")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ076]">ENQ076</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ077a]">ENQ077a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval077a]">
+            <Key>128745564</Key>
+            <Revision>1</Revision>
+            <Name>ENEval077a</Name>
+            <Expression>{{$contains("EncroachmentClass4", "House &amp; Additions")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ078]">ENQ078</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ079a]">ENQ079a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval079a]">
+            <Key>128745563</Key>
+            <Revision>1</Revision>
+            <Name>ENEval079a</Name>
+            <Expression>{{$contains("EncroachmentClass4", "Workshop")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ080]">ENQ080</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ081a]">ENQ081a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval081a]">
+            <Key>128745562</Key>
+            <Revision>2</Revision>
+            <Name>ENEval081a</Name>
+            <Expression>{{$contains("EncroachmentClass4", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ082]">ENQ082</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ081b]">ENQ081b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval081b]">
+            <Key>128763909</Key>
+            <Revision>1</Revision>
+            <Name>ENEval081b</Name>
+            <Expression>{{$contains("EncroachmentClass4", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ084a]">ENQ084a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ084a]">ENQ084a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval084a]">
+            <Key>128761858</Key>
+            <Revision>1</Revision>
+            <Name>ENEval084a</Name>
+            <Expression>{{$contains("EncroachmentTypeOfLineImpacted", "Elevated Pressure (EP) Mains &amp; Services")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ085]">ENQ085</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ157a]">ENQ157a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval085a]">
+            <Key>128745561</Key>
+            <Revision>1</Revision>
+            <Name>ENEval085a</Name>
+            <Expression>{{$contains("EncroachmentClass1EPType", "Shrub (small)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ086]">ENQ086</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ086a]">ENQ086a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval086a]">
+            <Key>128745560</Key>
+            <Revision>1</Revision>
+            <Name>ENEval086a</Name>
+            <Expression>{{$contains("EncroachmentClass1EPType", "Garden")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ087]">ENQ087</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ087a]">ENQ087a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval087a]">
+            <Key>128745559</Key>
+            <Revision>1</Revision>
+            <Name>ENEval087a</Name>
+            <Expression>{{$contains("EncroachmentClass1EPType", "Fence")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ088]">ENQ088</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ088a]">ENQ088a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval088a]">
+            <Key>128745558</Key>
+            <Revision>2</Revision>
+            <Name>ENEval088a</Name>
+            <Expression>{{$contains("EncroachmentClass1EPType", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ089]">ENQ089</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ090a]">ENQ090a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval090a]">
+            <Key>128763910</Key>
+            <Revision>1</Revision>
+            <Name>ENEval090a</Name>
+            <Expression>{{$contains("EncroachmentClass1EPType", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ091]">ENQ091</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ091]">ENQ091</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval091a]">
+            <Key>128745557</Key>
+            <Revision>1</Revision>
+            <Name>ENEval091a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Berm")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ092]">ENQ092</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ093a]">ENQ093a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval093a]">
+            <Key>128745556</Key>
+            <Revision>1</Revision>
+            <Name>ENEval093a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Bulk Material Stockpile/Storage")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ094]">ENQ094</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ095a]">ENQ095a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval095a]">
+            <Key>128745555</Key>
+            <Revision>1</Revision>
+            <Name>ENEval095a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Pond")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ096]">ENQ096</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ097a]">ENQ097a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval097a]">
+            <Key>128745554</Key>
+            <Revision>1</Revision>
+            <Name>ENEval097a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Retaining Wall")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ098]">ENQ098</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ099a]">ENQ099a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval099a]">
+            <Key>128745553</Key>
+            <Revision>1</Revision>
+            <Name>ENEval099a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Site grading: Soil Added")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ100]">ENQ100</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ101a]">ENQ101a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval101a]">
+            <Key>128745552</Key>
+            <Revision>1</Revision>
+            <Name>ENEval101a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Site grading: Soil Removed")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ102]">ENQ102</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ103a]">ENQ103a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval103a]">
+            <Key>128745551</Key>
+            <Revision>1</Revision>
+            <Name>ENEval103a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Tree &gt; 5m tall")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ104]">ENQ104</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ105a]">ENQ105a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval105a]">
+            <Key>128745550</Key>
+            <Revision>1</Revision>
+            <Name>ENEval105a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ106]">ENQ106</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ108a]">ENQ108a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval108a]">
+            <Key>128745549</Key>
+            <Revision>1</Revision>
+            <Name>ENEval108a</Name>
+            <Expression>{{$contains("EncroachmentClass2EPType", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ109]">ENQ109</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ109]">ENQ109</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval109a]">
+            <Key>128745548</Key>
+            <Revision>1</Revision>
+            <Name>ENEval109a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Anchor/Pilings")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ110]">ENQ110</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ111a]">ENQ111a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval111a]">
+            <Key>128745547</Key>
+            <Revision>1</Revision>
+            <Name>ENEval111a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Deck")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ112]">ENQ112</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ115a]">ENQ115a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval115a]">
+            <Key>128745546</Key>
+            <Revision>1</Revision>
+            <Name>ENEval115a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Pits (Ex: Fire, Gravel, etc)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ116]">ENQ116</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ117a]">ENQ117a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval117a]">
+            <Key>128745545</Key>
+            <Revision>1</Revision>
+            <Name>ENEval117a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Gazebo")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ118]">ENQ118</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ119a]">ENQ119a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval119a]">
+            <Key>128745544</Key>
+            <Revision>1</Revision>
+            <Name>ENEval119a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Grain Bin")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ120]">ENQ120</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ121a]">ENQ121a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval121a]">
+            <Key>128745543</Key>
+            <Revision>1</Revision>
+            <Name>ENEval121a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Green House")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ122]">ENQ122</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ124a]">ENQ124a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval124a]">
+            <Key>128745542</Key>
+            <Revision>1</Revision>
+            <Name>ENEval124a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Hot Tub")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ125]">ENQ125</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ126a]">ENQ126a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval126a]">
+            <Key>128745541</Key>
+            <Revision>1</Revision>
+            <Name>ENEval126a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Pool")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ127]">ENQ127</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ128a]">ENQ128a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval128a]">
+            <Key>128745540</Key>
+            <Revision>1</Revision>
+            <Name>ENEval128a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Posts/Poles")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ129]">ENQ129</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ130a]">ENQ130a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval130a]">
+            <Key>128745539</Key>
+            <Revision>1</Revision>
+            <Name>ENEval130a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Shed")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ131]">ENQ131</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ133a]">ENQ133a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval133a]">
+            <Key>128745538</Key>
+            <Revision>1</Revision>
+            <Name>ENEval133a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Tanks")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ134]">ENQ134</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ135a]">ENQ135a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval135a]">
+            <Key>128745537</Key>
+            <Revision>1</Revision>
+            <Name>ENEval135a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Tower")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ136]">ENQ136</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ137a]">ENQ137a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval137a]">
+            <Key>128745536</Key>
+            <Revision>2</Revision>
+            <Name>ENEval137a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ139]">ENQ139</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ141a]">ENQ141a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval141a]">
+            <Key>128763905</Key>
+            <Revision>1</Revision>
+            <Name>ENEval141a</Name>
+            <Expression>{{$contains("EncroachmentClass3EPType", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ142]">ENQ142</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ142]">ENQ142</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval142a]">
+            <Key>128745535</Key>
+            <Revision>1</Revision>
+            <Name>ENEval142a</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "Barn")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ143]">ENQ143</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ144a]">ENQ144a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval144a]">
+            <Key>128745534</Key>
+            <Revision>1</Revision>
+            <Name>ENEval144a</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "Garage")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ145]">ENQ145</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ146a]">ENQ146a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval146a]">
+            <Key>128745533</Key>
+            <Revision>1</Revision>
+            <Name>ENEval146a</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "House &amp; Additions")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ147]">ENQ147</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ148a]">ENQ148a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval148a]">
+            <Key>128745532</Key>
+            <Revision>1</Revision>
+            <Name>ENEval148a</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "Quonset")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ149]">ENQ149</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ150a]">ENQ150a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval150a]">
+            <Key>128745531</Key>
+            <Revision>1</Revision>
+            <Name>ENEval150a</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "Sunroom")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ151]">ENQ151</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ152a]">ENQ152a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval152a]">
+            <Key>128745530</Key>
+            <Revision>1</Revision>
+            <Name>ENEval152a</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "Workshop")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ153]">ENQ153</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ154a]">ENQ154a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval154a]">
+            <Key>128745529</Key>
+            <Revision>2</Revision>
+            <Name>ENEval154a</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "Other")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ155]">ENQ155</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ157aa]">ENQ157aa</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval157a]">
+            <Key>128761857</Key>
+            <Revision>1</Revision>
+            <Name>ENEval157a</Name>
+            <Expression>{{$contains("EncroachmentTypeOfLineImpacted", "High Pressure (HP) Pipelines")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ158]">ENQ158</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ174]">ENQ174</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval157aa]">
+            <Key>128763907</Key>
+            <Revision>1</Revision>
+            <Name>ENEval157aa</Name>
+            <Expression>{{$contains("EncroachmentClass4EPType", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ157a]">ENQ157a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ157a]">ENQ157a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval158a]">
+            <Key>128745528</Key>
+            <Revision>1</Revision>
+            <Name>ENEval158a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "Well and Drilling")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ159]">ENQ159</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ160a]">ENQ160a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval160a]">
+            <Key>128745527</Key>
+            <Revision>1</Revision>
+            <Name>ENEval160a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "Ground Disturbance")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ161]">ENQ161</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ162a]">ENQ162a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval162a]">
+            <Key>128745526</Key>
+            <Revision>1</Revision>
+            <Name>ENEval162a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "Storage of Materials")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ163]">ENQ163</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ164a]">ENQ164a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval164a]">
+            <Key>128745524</Key>
+            <Revision>1</Revision>
+            <Name>ENEval164a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "Fences and Roads")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ165]">ENQ165</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ166a]">ENQ166a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval166a]">
+            <Key>128745521</Key>
+            <Revision>1</Revision>
+            <Name>ENEval166a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "Surface Development")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ167]">ENQ167</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ168a]">ENQ168a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval168a]">
+            <Key>128745520</Key>
+            <Revision>1</Revision>
+            <Name>ENEval168a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "Minor Surface Improvement")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ169]">ENQ169</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ170a]">ENQ170a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval170a]">
+            <Key>128745508</Key>
+            <Revision>3</Revision>
+            <Name>ENEval170a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "Other Encroachments Listed in Section 3.0")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ171]">ENQ171</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ173a]">ENQ173a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval173a]">
+            <Key>128763904</Key>
+            <Revision>1</Revision>
+            <Name>ENEval173a</Name>
+            <Expression>{{$contains("EncroachmentHPType", "No")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ENQ174]">ENQ174</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ENQ174]">ENQ174</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ENEval180a]">
+            <Key>128745476</Key>
+            <Revision>2</Revision>
+            <Name>ENEval180a</Name>
+            <Expression>{{REOReportRequired}}</Expression>
+            <TrueNextQuestion Key="-1" />
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval01a]">
+            <Key>128745671</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval01a</Name>
+            <Expression>{{QEERMBoolean1}} == true &amp;&amp; {{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ02]">ERMQ02</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01b]">ERMQ01b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval01b]">
+            <Key>128745670</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval01b</Name>
+            <Expression>{{QEERMBoolean1}} !== true &amp;&amp; {{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ06]">ERMQ06</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01c]">ERMQ01c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval01c]">
+            <Key>128745668</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval01c</Name>
+            <Expression>{{QEERMBoolean1}} == true &amp;&amp; {{topParent.Task.QEMeterReadNotMandatory}} &amp;&amp;  {{topParent.Task.ServicePointPrimary.Type}} == "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ06]">ERMQ06</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01d]">ERMQ01d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval01d]">
+            <Key>128745665</Key>
+            <Revision>2</Revision>
+            <Name>ERMEval01d</Name>
+            <Expression>{{QEERMBoolean1}} == true &amp;&amp; {{topParent.Task.QEMeterReadNotMandatory}} &amp;&amp; {{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ02]">ERMQ02</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ06a]">ERMQ06a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval02a]">
+            <Key>128745662</Key>
+            <Revision>3</Revision>
+            <Name>ERMEval02a</Name>
+            <Expression>{{ExistingMeterRead}} &gt; {{topParent.Task.ServicePointPrimary.MeterReadLowParameter}} &amp;&amp; {{ExistingMeterRead}} &lt; {{topParent.Task.ServicePointPrimary.MeterReadHighParameter}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ03a]">ERMQ03a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ03]">ERMQ03</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval03a]">
+            <Key>128745660</Key>
+            <Revision>2</Revision>
+            <Name>ERMEval03a</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.LastUncorrectedRead}} !== 0</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ04]">ERMQ04</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ04]">ERMQ04</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval04a]">
+            <Key>128745658</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval04a</Name>
+            <Expression>{{QEERMBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ05]">ERMQ05</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ07]">ERMQ07</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval06]">
+            <Key>128745666</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval06</Name>
+            <Expression>{{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ06a]">ERMQ06a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ06b]">ERMQ06b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval07]">
+            <Key>128745655</Key>
+            <Revision>2</Revision>
+            <Name>ERMEval07</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ07a]">ERMQ07a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ09a]">ERMQ09a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval09a]">
+            <Key>128745642</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval09a</Name>
+            <Expression>({{topParent.Task.TaskType}} == "T/Off"  ||  {{topParent.Task.TaskType}} == "DiscNonPay"  ||  {{topParent.Task.TaskType}} ==  "T/OnSM"  ||  {{topParent.Task.TaskType}}  ==  "T/OnLG") &amp;&amp; {{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ11]">ERMQ11</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ10]">ERMQ10</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval10]">
+            <Key>128753664</Key>
+            <Revision>6</Revision>
+            <Name>ERMEval10</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.MeterBadgeNumber}} == "" &amp;&amp; {{topParent.Task.QEMeterReadNotMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ10b]">ERMQ10b</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ10a]">ERMQ10a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval10c]">
+            <Key>128745638</Key>
+            <Revision>3</Revision>
+            <Name>ERMEval10c</Name>
+            <Expression>{{QEERMBoolean4}}  &amp;&amp; {{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ11]">ERMQ11</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ10d]">ERMQ10d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval10d]">
+            <Key>128745636</Key>
+            <Revision>4</Revision>
+            <Name>ERMEval10d</Name>
+            <Expression>{{QEERMBoolean4}}  &amp;&amp; {{topParent.Task.QEMeterReadNotMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ11]">ERMQ11</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ10e]">ERMQ10e</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval10e]">
+            <Key>128770048</Key>
+            <Revision>3</Revision>
+            <Name>ERMEval10e</Name>
+            <Expression>{{QEERMBoolean4}}!== true &amp;&amp; {{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ11a]">ERMQ11a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ14]">ERMQ14</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval11a]">
+            <Key>128745630</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval11a</Name>
+            <Expression>{{topParent.Task.QEAMI}} &amp;&amp; {{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ01]">AMIQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ14]">ERMQ14</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval13]">
+            <Key>128745635</Key>
+            <Revision>2</Revision>
+            <Name>ERMEval13</Name>
+            <Expression>{{topParent.Task.QEAMI}} &amp;&amp; {{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[AMIQ01]">AMIQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ13a]">ERMQ13a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval14a]">
+            <Key>128745626</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval14a</Name>
+            <Expression>{{QEERMBoolean5}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ15]">ERMQ15</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ20]">ERMQ20</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval17]">
+            <Key>128745618</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval17</Name>
+            <Expression>{{ExistingMeterPressure}} != 0 &amp;&amp; {{topParent.Task.ServicePointPrimary.MeterPressure}} !== {{ExistingMeterPressure}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ17a]">ERMQ17a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ17b]">ERMQ17b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval17c]">
+            <Key>128745610</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval17c</Name>
+            <Expression>{{GS120NotificationRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ18]">ERMQ18</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ20]">ERMQ20</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval20a]">
+            <Key>128745598</Key>
+            <Revision>2</Revision>
+            <Name>ERMEval20a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ21]">ERMQ21</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ22]">ERMQ22</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval23a]">
+            <Key>128745512</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval23a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ24]">ERMQ24</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ25]">ERMQ25</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval24a]">
+            <Key>128745499</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval24a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ25]">ERMQ25</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ25]">ERMQ25</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval25a]">
+            <Key>128745490</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval25a</Name>
+            <Expression>{{QEERMBoolean7}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ27]">ERMQ27</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ27]">ERMQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[ERMEval27a]">
+            <Key>128745478</Key>
+            <Revision>1</Revision>
+            <Name>ERMEval27a</Name>
+            <Expression>{{QEERMBoolean8}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ28]">ERMQ28</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval01]">
+            <Key>128745729</Key>
+            <Revision>1</Revision>
+            <Name>GENEval01</Name>
+            <Expression>{{topParent.Task.TaskType}} == "MtrChkSM" || {{topParent.Task.TaskType}} == "MtrChkLG" || {{topParent.Task.TaskType}} == "MultiSuitV"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[GENQ01a]">GENQ01a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[GENQ02]">GENQ02</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval02a]">
+            <Key>128745727</Key>
+            <Revision>1</Revision>
+            <Name>GENEval02a</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[GENQ03]">GENQ03</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[GENQ04]">GENQ04</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval05a]">
+            <Key>128745723</Key>
+            <Revision>1</Revision>
+            <Name>GENEval05a</Name>
+            <Expression>{{topParent.Task.QESelmaInquiry}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ01]">SINQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[GENQ05b]">GENQ05b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval05b]">
+            <Key>128745721</Key>
+            <Revision>2</Revision>
+            <Name>GENEval05b</Name>
+            <Expression>{{topParent.Task.QEInstallMeter}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ00]">INSTQ00</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[GENQ05c]">GENQ05c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval05c]">
+            <Key>128745718</Key>
+            <Revision>1</Revision>
+            <Name>GENEval05c</Name>
+            <Expression>{{topParent.Task.QESelmaEncroachment}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ01]">SENQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[GENQ05d]">GENQ05d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval05d]">
+            <Key>128745716</Key>
+            <Revision>1</Revision>
+            <Name>GENEval05d</Name>
+            <Expression>{{topParent.Task.QESelmaWork}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ00]">SWRKQ00</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[GENQ05e]">GENQ05e</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval05e]">
+            <Key>128745680</Key>
+            <Revision>1</Revision>
+            <Name>GENEval05e</Name>
+            <Expression>{{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[GENQ05f]">GENQ05f</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[GENEval05f]">
+            <Key>128745677</Key>
+            <Revision>1</Revision>
+            <Name>GENEval05f</Name>
+            <Expression>{{topParent.Task.QEMeterReadNotMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INCEval02a]">
+            <Key>128745516</Key>
+            <Revision>1</Revision>
+            <Name>INCEval02a</Name>
+            <Expression>{{QEINCBoolean1}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INCQ03]">INCQ03</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INCQ03a]">INCQ03a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INCEval03a]">
+            <Key>128745505</Key>
+            <Revision>1</Revision>
+            <Name>INCEval03a</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INCQ04]">INCQ04</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INCQ05]">INCQ05</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INCEval05]">
+            <Key>128745485</Key>
+            <Revision>1</Revision>
+            <Name>INCEval05</Name>
+            <Expression>{{IncompleteReason}} == "Other (Comments Required)"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INCQ05a]">INCQ05a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INCQ05b]">INCQ05b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INCEval05c]">
+            <Key>128745477</Key>
+            <Revision>1</Revision>
+            <Name>INCEval05c</Name>
+            <Expression>{{QEINCBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INCQ06]">INCQ06</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval00]">
+            <Key>128768002</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval00</Name>
+            <Expression>{{topParent.Task.TaskType}} == "MeterPrepL" || {{topParent.Task.TaskType}} == "MeterPrepS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ00a]">INSTQ00a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ01]">INSTQ01</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval00b]">
+            <Key>128768000</Key>
+            <Revision>2</Revision>
+            <Name>INSTEval00b</Name>
+            <Expression>{{QEINSTBoolean00}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ01]">INSTQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ31]">INSTQ31</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval02]">
+            <Key>128745654</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval02</Name>
+            <Expression>{{NewMeterBadgeNumber}}!=={{topParent.Task.ServicePointPrimary.MeterBadgeNumber}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ03]">INSTQ03</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt>New Meter Number cannot match Existing Meter Number</FalsePrompt>
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval04a]">
+            <Key>128745652</Key>
+            <Revision>2</Revision>
+            <Name>INSTEval04a</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} == "Commercial Large (Meter Size 400 and Over)" || {{topParent.Task.ServicePointPrimary.Type}} == "Residential Large (Meter Size 750 and Over)" || {{topParent.Task.ServicePointPrimary.Type}} == "Industrial &amp; Commercial (+100,000 m3 annual consumption)"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ05]">INSTQ05</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ07]">INSTQ07</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval05a]">
+            <Key>128745651</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval05a</Name>
+            <Expression>{{QEINSTBoolean1}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ06]">INSTQ06</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ07]">INSTQ07</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval07a]">
+            <Key>128745647</Key>
+            <Revision>3</Revision>
+            <Name>INSTEval07a</Name>
+            <Expression>{{QEINSTBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ08]">INSTQ08</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ07b]">INSTQ07b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval07b]">
+            <Key>128761856</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval07b</Name>
+            <Expression>{{topParent.Task.TaskType}} == "MeterPrepL" || {{topParent.Task.TaskType}} == "MeterPrepS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ31]">INSTQ31</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ09]">INSTQ09</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval09]">
+            <Key>128751617</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval09</Name>
+            <Expression>{{topParent.Task.TaskType}} !== "MeterPrepL" &amp;&amp; {{topParent.Task.TaskType}} !== "MeterPrepS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ09a]">INSTQ09a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ16]">INSTQ16</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval18a]">
+            <Key>128745627</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval18a</Name>
+            <Expression>{{topParent.Task.TaskType}} == "MeterPrepL" || {{topParent.Task.TaskType}} == "MeterPrepS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ31]">INSTQ31</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ19]">INSTQ19</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval19a]">
+            <Key>128745619</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval19a</Name>
+            <Expression>{{GS120NotificationRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ20]">INSTQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ31]">INSTQ31</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval22a]">
+            <Key>128745595</Key>
+            <Revision>3</Revision>
+            <Name>INSTEval22a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ23]">INSTQ23</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ23a]">INSTQ23a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval23a]">
+            <Key>128768001</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval23a</Name>
+            <Expression>{{topParent.Task.TaskType}} == "MeterPrepL" || {{topParent.Task.TaskType}} == "MeterPrepS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ24a]">INSTQ24a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ24]">INSTQ24</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval25a]">
+            <Key>128745506</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval25a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ26]">INSTQ26</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ27]">INSTQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval26a]">
+            <Key>128745496</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval26a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ27]">INSTQ27</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ27]">INSTQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval27a]">
+            <Key>128745486</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval27a</Name>
+            <Expression>{{QEINSTBoolean4}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ29]">INSTQ29</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ29]">INSTQ29</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval29a]">
+            <Key>128745483</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval29a</Name>
+            <Expression>{{QEINSTBoolean5}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ30]">INSTQ30</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval31]">
+            <Key>128745608</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval31</Name>
+            <Expression>{{topParent.Task.TaskType}} == "MeterPrepL" || {{topParent.Task.TaskType}} == "MeterPrepS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ31a]">INSTQ31a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ22]">INSTQ22</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval31b]">
+            <Key>128745606</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval31b</Name>
+            <Expression>{{QEINSTBoolean6}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ22]">INSTQ22</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ22]">INSTQ22</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[INSTEval32a]">
+            <Key>128745631</Key>
+            <Revision>1</Revision>
+            <Name>INSTEval32a</Name>
+            <Expression>{{ByPass}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ16]">INSTQ16</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[INSTQ16]">INSTQ16</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval02a]">
+            <Key>128745728</Key>
+            <Revision>1</Revision>
+            <Name>LLEval02a</Name>
+            <Expression>!({{$contains("TypeOfAddressesToLocate","Land Location(s)")}}  &amp;&amp;  ({{$contains("TypeOfAddressesToLocate","Lot(s)")}}  ||  {{$contains("TypeOfAddressesToLocate","Block(s)")}}))</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ02b]">LLQ02b</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt>Answer combination not permitted.</FalsePrompt>
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval02b]">
+            <Key>128745726</Key>
+            <Revision>1</Revision>
+            <Name>LLEval02b</Name>
+            <Expression>{{$contains("TypeOfAddressesToLocate","Lot(s)")}}  ||  {{$contains("TypeOfAddressesToLocate","Block(s)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ03]">LLQ03</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ04a]">LLQ04a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval04a]">
+            <Key>128745724</Key>
+            <Revision>1</Revision>
+            <Name>LLEval04a</Name>
+            <Expression>{{$contains("TypeOfAddressesToLocate","Rectifier")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ05]">LLQ05</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ05a]">LLQ05a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval05a]">
+            <Key>128745722</Key>
+            <Revision>1</Revision>
+            <Name>LLEval05a</Name>
+            <Expression>{{$contains("TypeOfAddressesToLocate","Land Location(s)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ06]">LLQ06</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ05b]">LLQ05b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval05b]">
+            <Key>128745719</Key>
+            <Revision>1</Revision>
+            <Name>LLEval05b</Name>
+            <Expression>{{RectifierLocateRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ08]">LLQ08</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ08]">LLQ08</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval11a]">
+            <Key>128745715</Key>
+            <Revision>1</Revision>
+            <Name>LLEval11a</Name>
+            <Expression>{{ReoReportRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ12]">LLQ12</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ13]">LLQ13</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval13a]">
+            <Key>128745712</Key>
+            <Revision>2</Revision>
+            <Name>LLEval13a</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","SEI")}}  ||  {{$contains("TypeOfFacilitiesLocated","Rectifier")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ27]">LLQ27</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ13b]">LLQ13b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval13b]">
+            <Key>128749571</Key>
+            <Revision>1</Revision>
+            <Name>LLEval13b</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","SEI")}}  ||  {{$contains("TypeOfFacilitiesLocated","TGL")}}  ||  {{$contains("TypeOfFacilitiesLocated","MIPL")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15]">LLQ15</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ49]">LLQ49</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval15a]">
+            <Key>128745707</Key>
+            <Revision>2</Revision>
+            <Name>LLEval15a</Name>
+            <Expression>{{SiteVisitRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15b]">LLQ15b</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ16]">LLQ16</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval15b]">
+            <Key>128749577</Key>
+            <Revision>1</Revision>
+            <Name>LLEval15b</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","Rectifier")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ26]">LLQ26</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15c]">LLQ15c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval15c]">
+            <Key>128749575</Key>
+            <Revision>1</Revision>
+            <Name>LLEval15c</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","SEI")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ14]">LLQ14</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15d]">LLQ15d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval15d]">
+            <Key>128749572</Key>
+            <Revision>1</Revision>
+            <Name>LLEval15d</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","TGL")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ33]">LLQ33</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15e]">LLQ15e</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval15e]">
+            <Key>128749568</Key>
+            <Revision>1</Revision>
+            <Name>LLEval15e</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","MIPL")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ42]">LLQ42</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ49]">LLQ49</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval19a]">
+            <Key>128745704</Key>
+            <Revision>1</Revision>
+            <Name>LLEval19a</Name>
+            <Expression>{{$contains("SEITypeOfFacilitiesLocated", "Main(s)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ20]">LLQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ20a]">LLQ20a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval20a]">
+            <Key>128745702</Key>
+            <Revision>2</Revision>
+            <Name>LLEval20a</Name>
+            <Expression>{{$contains("SEITypeOfFacilitiesLocated", "Service(s)")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ21]">LLQ21</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15d]">LLQ15d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval22a]">
+            <Key>128745697</Key>
+            <Revision>1</Revision>
+            <Name>LLEval22a</Name>
+            <Expression>{{SEIHighRiskCriticInfra}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ23]">LLQ23</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ25a]">LLQ25a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval23a]">
+            <Key>128745695</Key>
+            <Revision>1</Revision>
+            <Name>LLEval23a</Name>
+            <Expression>{{SEICrossingSuperReqd}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ24]">LLQ24</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ25a]">LLQ25a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval24a]">
+            <Key>128745690</Key>
+            <Revision>1</Revision>
+            <Name>LLEval24a</Name>
+            <Expression>{{SEIConsentProof}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ25]">LLQ25</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ25a]">LLQ25a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval25a]">
+            <Key>128745688</Key>
+            <Revision>1</Revision>
+            <Name>LLEval25a</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","Rectifier")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ26]">LLQ26</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ30a]">LLQ30a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval26a]">
+            <Key>128745684</Key>
+            <Revision>2</Revision>
+            <Name>LLEval26a</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","SEI")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ14]">LLQ14</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ27b]">LLQ27b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval27a]">
+            <Key>128745678</Key>
+            <Revision>2</Revision>
+            <Name>LLEval27a</Name>
+            <Expression>{{SEIHighRiskCriticInfra}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ28]">LLQ28</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ30a]">LLQ30a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval27b]">
+            <Key>128745672</Key>
+            <Revision>1</Revision>
+            <Name>LLEval27b</Name>
+            <Expression>!{{SEICrossingSuperReqd}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ28]">LLQ28</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ28b]">LLQ28b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval28a]">
+            <Key>128745669</Key>
+            <Revision>2</Revision>
+            <Name>LLEval28a</Name>
+            <Expression>{{SEICrossingSuperReqd}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ29]">LLQ29</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ30a]">LLQ30a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval28b]">
+            <Key>128745667</Key>
+            <Revision>1</Revision>
+            <Name>LLEval28b</Name>
+            <Expression>!{{SEIConsentProof}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ29]">LLQ29</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ29b]">LLQ29b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval29a]">
+            <Key>128745664</Key>
+            <Revision>2</Revision>
+            <Name>LLEval29a</Name>
+            <Expression>{{SEIConsentProof}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ30]">LLQ30</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ30a]">LLQ30a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval29b]">
+            <Key>128745663</Key>
+            <Revision>1</Revision>
+            <Name>LLEval29b</Name>
+            <Expression>!{{SEIConsentNumber}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ30]">LLQ30</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ30a]">LLQ30a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval30a]">
+            <Key>128745661</Key>
+            <Revision>2</Revision>
+            <Name>LLEval30a</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","SEI")}}  ||  {{$contains("TypeOfFacilitiesLocated","TGL")}}  ||  {{$contains("TypeOfFacilitiesLocated","MIPL")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15]">LLQ15</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ26]">LLQ26</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval30b]">
+            <Key>128745659</Key>
+            <Revision>1</Revision>
+            <Name>LLEval30b</Name>
+            <Expression>!{{SiteVisitRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ31]">LLQ31</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ31b]">LLQ31b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval31a]">
+            <Key>128745657</Key>
+            <Revision>1</Revision>
+            <Name>LLEval31a</Name>
+            <Expression>{{SiteVisitRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ33]">LLQ33</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ32]">LLQ32</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval31b]">
+            <Key>128745656</Key>
+            <Revision>1</Revision>
+            <Name>LLEval31b</Name>
+            <Expression>!{{NoSiteVisitReason}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ32]">LLQ32</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ33]">LLQ33</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval34a]">
+            <Key>128755715</Key>
+            <Revision>1</Revision>
+            <Name>LLEval34a</Name>
+            <Expression>{{$contains("TGLTypeOfFacilitiesLocated","Transmission")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ35]">LLQ35</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ36]">LLQ36</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval37a]">
+            <Key>128745650</Key>
+            <Revision>3</Revision>
+            <Name>LLEval37a</Name>
+            <Expression>{{DistanceToTGL}} ==  "Yes - Within 10m of a TGL ROW - Cust has consent"  ||  {{DistanceToTGL}} ==  "Yes - Within 15m of a TGL Pipe, no ROW - Cust has consent" || {{MobEqCrossPipeline}} ==  "Yes - Customer already has consent"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ38]">LLQ38</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ15e]">LLQ15e</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval38a]">
+            <Key>128745648</Key>
+            <Revision>1</Revision>
+            <Name>LLEval38a</Name>
+            <Expression>{{TGLConsentObtained}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ39]">LLQ39</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ39a]">LLQ39a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval39a]">
+            <Key>128745644</Key>
+            <Revision>2</Revision>
+            <Name>LLEval39a</Name>
+            <Expression>{{$contains("TypeOfFacilitiesLocated","MIPL")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ42]">LLQ42</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ49]">LLQ49</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval39b]">
+            <Key>128745641</Key>
+            <Revision>1</Revision>
+            <Name>LLEval39b</Name>
+            <Expression>!{{SiteVisitRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ40]">LLQ40</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ40a]">LLQ40a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval40a]">
+            <Key>128745640</Key>
+            <Revision>1</Revision>
+            <Name>LLEval40a</Name>
+            <Expression>{{SiteVisitRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ42]">LLQ42</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ40b]">LLQ40b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval40b]">
+            <Key>128745637</Key>
+            <Revision>1</Revision>
+            <Name>LLEval40b</Name>
+            <Expression>!{{NoSiteVisitReason}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ41]">LLQ41</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ42]">LLQ42</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval43a]">
+            <Key>128745632</Key>
+            <Revision>1</Revision>
+            <Name>LLEval43a</Name>
+            <Expression>{{$contains("MIPLTypeOfFacilitiesLocated", "Transmission")}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ44]">LLQ44</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ45]">LLQ45</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval46a]">
+            <Key>128745628</Key>
+            <Revision>2</Revision>
+            <Name>LLEval46a</Name>
+            <Expression>{{DistanceToMIPL}}  ==  "Yes - Under 30m from pipe - Customer already has consent" || {{MobEqCrossPipelineMIPL}}  == "Yes - Customer already has consent"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ47]">LLQ47</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ49]">LLQ49</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval47a]">
+            <Key>128745625</Key>
+            <Revision>1</Revision>
+            <Name>LLEval47a</Name>
+            <Expression>{{MIPLConsentObtained}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ48]">LLQ48</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ49]">LLQ49</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval50a]">
+            <Key>128765952</Key>
+            <Revision>2</Revision>
+            <Name>LLEval50a</Name>
+            <Expression>{{DistanceToTGL}}&amp;&amp;( {{DistanceToTGL}}!=="No" )|| {{MobEqCrossPipeline}}&amp;&amp;( {{MobEqCrossPipeline}}=="Yes - Customer not advised Consent required"|| {{MobEqCrossPipeline}}=="Yes - Customer advised Consent Required"|| {{MobEqCrossPipeline}}=="Unknown")|| {{DistanceToMIPL}}&amp;&amp;( {{DistanceToMIPL}}=="Unknown"|| {{DistanceToMIPL}}=="Yes - Under 30m from pipe - Cust was not advised consent req'd"|| {{DistanceToMIPL}}=="Yes - Under 30m from pipe - Customer was advised consent req'd")|| {{MobEqCrossPipelineMIPL}}&amp;&amp;( {{MobEqCrossPipelineMIPL}}=="Yes - Customer not advised Consent required"|| {{MobEqCrossPipelineMIPL}}=="Yes - Customer advised Consent req'd"|| {{MobEqCrossPipelineMIPL}}=="Unknown")</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ51]">LLQ51</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[LLQ51]">LLQ51</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[LLEval59a]">
+            <Key>128745597</Key>
+            <Revision>1</Revision>
+            <Name>LLEval59a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[LLQ60]">LLQ60</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval01]">
+            <Key>128745653</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval01</Name>
+            <Expression>{{topParent.Task.TaskType}}!=="MtrRemLG"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrRemSM"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrExLG"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrExSM"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrInstLG"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrInstSM"&amp;&amp;{{topParent.Task.TaskType}}!=="MeterPrepL"&amp;&amp;{{topParent.Task.TaskType}}!=="MeterPrepS"&amp;&amp;{{topParent.Task.TaskType}}!=="TagExchgLG"&amp;&amp;{{topParent.Task.TaskType}}!=="TagExchgSM"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ01a]">MEXQ01a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ02]">MEXQ02</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval02a]">
+            <Key>128745649</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval02a</Name>
+            <Expression>{{NewMeterBadgeNumber}}!=={{topParent.Task.ServicePointPrimary.MeterBadgeNumber}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ03]">MEXQ03</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt>New Meter Number cannot match Existing Meter Number</FalsePrompt>
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval04a]">
+            <Key>128745646</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval04a</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.LastUncorrectedRead}} !== 0</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ05]">MEXQ05</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ07]">MEXQ07</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval05a]">
+            <Key>128745643</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval05a</Name>
+            <Expression>{{QEMEXBoolean1}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ06]">MEXQ06</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ07]">MEXQ07</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval07a]">
+            <Key>128745639</Key>
+            <Revision>4</Revision>
+            <Name>MEXEval07a</Name>
+            <Expression>{{QEMEXBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ08]">MEXQ08</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ09]">MEXQ09</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval15a]">
+            <Key>128745624</Key>
+            <Revision>2</Revision>
+            <Name>MEXEval15a</Name>
+            <Expression>{{QEMEXBoolean4}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ17]">MEXQ17</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ19]">MEXQ19</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval16a]">
+            <Key>128745622</Key>
+            <Revision>2</Revision>
+            <Name>MEXEval16a</Name>
+            <Expression>{{ByPass}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ17]">MEXQ17</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ19]">MEXQ19</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval19a]">
+            <Key>128745611</Key>
+            <Revision>2</Revision>
+            <Name>MEXEval19a</Name>
+            <Expression>{{GS120NotificationRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ20]">MEXQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ21a]">MEXQ21a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval21a]">
+            <Key>128749576</Key>
+            <Revision>2</Revision>
+            <Name>MEXEval21a</Name>
+            <Expression>{{topParent.Task.TaskType}}=="AlterAG"||{{topParent.Task.TaskType}}=="AlterUG"||{{topParent.Task.TaskType}}=="Bracket"||{{topParent.Task.TaskType}}=="GuardInst"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ20]">SWRKQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ21d]">MEXQ21d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval21b]">
+            <Key>128749573</Key>
+            <Revision>2</Revision>
+            <Name>MEXEval21b</Name>
+            <Expression>{{topParent.Task.TaskType}}=="InqAltLG"||{{topParent.Task.TaskType}}=="InqAltSM"||{{topParent.Task.TaskType}}=="InqNewSerL"||{{topParent.Task.TaskType}}=="InqNewSerS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ23]">SINQ23</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ21c]">MEXQ21c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval21c]">
+            <Key>128749569</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval21c</Name>
+            <Expression>{{topParent.Task.TaskType}}=="Encroach"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ19]">SENQ19</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ22]">MEXQ22</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval21d]">
+            <Key>128755712</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval21d</Name>
+            <Expression>{{topParent.Task.TaskType}}=="TempServic"||{{topParent.Task.TaskType}}=="TracerBrk"||{{topParent.Task.TaskType}}=="UGEntRep"||{{topParent.Task.TaskType}}=="Retire"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ20]">SWRKQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ21b]">MEXQ21b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval22a]">
+            <Key>128745601</Key>
+            <Revision>2</Revision>
+            <Name>MEXEval22a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ23]">MEXQ23</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ24]">MEXQ24</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval25a]">
+            <Key>128745507</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval25a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ26]">MEXQ26</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ27]">MEXQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval26a]">
+            <Key>128745504</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval26a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ27]">MEXQ27</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ27]">MEXQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval27a]">
+            <Key>128745487</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval27a</Name>
+            <Expression>{{QEMEXBoolean6}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ29]">MEXQ29</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ29]">MEXQ29</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MEXEval29a]">
+            <Key>128745481</Key>
+            <Revision>1</Revision>
+            <Name>MEXEval29a</Name>
+            <Expression>{{QEMEXBoolean7}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MEXQ30]">MEXQ30</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval01a]">
+            <Key>128745696</Key>
+            <Revision>1</Revision>
+            <Name>MMEval01a</Name>
+            <Expression>{{ReoReportRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ02]">MMQ02</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ03]">MMQ03</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval03a]">
+            <Key>128745691</Key>
+            <Revision>1</Revision>
+            <Name>MMEval03a</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ04]">MMQ04</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ05]">MMQ05</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval06a]">
+            <Key>128745682</Key>
+            <Revision>1</Revision>
+            <Name>MMEval06a</Name>
+            <Expression>{{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ06b]">MMQ06b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval06b]">
+            <Key>128745679</Key>
+            <Revision>1</Revision>
+            <Name>MMEval06b</Name>
+            <Expression>{{topParent.Task.QEMeterReadNotMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ06c]">MMQ06c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval06c]">
+            <Key>128745607</Key>
+            <Revision>1</Revision>
+            <Name>MMEval06c</Name>
+            <Expression>{{topParent.Task.TaskType}} == "PressMontr"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[PRSQ01]">PRSQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ09]">MMQ09</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval09a]">
+            <Key>128745604</Key>
+            <Revision>2</Revision>
+            <Name>MMEval09a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ10]">MMQ10</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ11]">MMQ11</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval12a]">
+            <Key>128745511</Key>
+            <Revision>1</Revision>
+            <Name>MMEval12a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ13]">MMQ13</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ14]">MMQ14</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval13a]">
+            <Key>128745500</Key>
+            <Revision>1</Revision>
+            <Name>MMEval13a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ14]">MMQ14</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ14]">MMQ14</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval14a]">
+            <Key>128745489</Key>
+            <Revision>1</Revision>
+            <Name>MMEval14a</Name>
+            <Expression>{{QEMMBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ16]">MMQ16</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[MMQ16]">MMQ16</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[MMEval16a]">
+            <Key>128745475</Key>
+            <Revision>1</Revision>
+            <Name>MMEval16a</Name>
+            <Expression>{{QEMMBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[MMQ17]">MMQ17</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[PRSEval04a]">
+            <Key>128745602</Key>
+            <Revision>2</Revision>
+            <Name>PRSEval04a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[PRSQ05]">PRSQ05</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[PRSQ06]">PRSQ06</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[PRSEval07a]">
+            <Key>128745495</Key>
+            <Revision>1</Revision>
+            <Name>PRSEval07a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[PRSQ08]">PRSQ08</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[PRSQ09]">PRSQ09</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[PRSEval08a]">
+            <Key>128745484</Key>
+            <Revision>1</Revision>
+            <Name>PRSEval08a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[PRSQ09]">PRSQ09</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[PRSQ09]">PRSQ09</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[PRSEval09a]">
+            <Key>128745472</Key>
+            <Revision>1</Revision>
+            <Name>PRSEval09a</Name>
+            <Expression>{{QEPRSBoolean1}}</Expression>
+            <TrueNextQuestion Key="-1" />
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval01]">
+            <Key>128745629</Key>
+            <Revision>1</Revision>
+            <Name>REMEval01</Name>
+            <Expression>{{topParent.Task.TaskType}}!=="MtrRemLG"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrRemSM"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrExLG"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrExSM"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrInstLG"&amp;&amp;{{topParent.Task.TaskType}}!=="MtrInstSM"&amp;&amp;{{topParent.Task.TaskType}}!=="MeterPrepL"&amp;&amp;{{topParent.Task.TaskType}}!=="MeterPrepS"&amp;&amp;{{topParent.Task.TaskType}}!=="TagExchgLG"&amp;&amp;{{topParent.Task.TaskType}}!=="TagExchgSM"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[REMQ01a]">REMQ01a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ02]">REMQ02</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval04a]">
+            <Key>128745617</Key>
+            <Revision>1</Revision>
+            <Name>REMEval04a</Name>
+            <Expression>{{GS120NotificationRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[REMQ05]">REMQ05</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ07]">REMQ07</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval07a]">
+            <Key>128745605</Key>
+            <Revision>3</Revision>
+            <Name>REMEval07a</Name>
+            <Expression>{{topParent.Task.TaskType}}=="AlterAG"||{{topParent.Task.TaskType}}=="AlterUG"||{{topParent.Task.TaskType}}=="Bracket"||{{topParent.Task.TaskType}}=="GuardInst"||{{topParent.Task.TaskType}}=="Retire"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ20]">SWRKQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ07d]">REMQ07d</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval07b]">
+            <Key>128749574</Key>
+            <Revision>2</Revision>
+            <Name>REMEval07b</Name>
+            <Expression>{{topParent.Task.TaskType}}=="InqAltLG"||{{topParent.Task.TaskType}}=="InqAltSM"||{{topParent.Task.TaskType}}=="InqNewSerL"||{{topParent.Task.TaskType}}=="InqNewSerS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ23]">SINQ23</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ07c]">REMQ07c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval07c]">
+            <Key>128749570</Key>
+            <Revision>1</Revision>
+            <Name>REMEval07c</Name>
+            <Expression>{{topParent.Task.TaskType}}=="Encroach"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ19]">SENQ19</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ08]">REMQ08</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval07d]">
+            <Key>128755713</Key>
+            <Revision>1</Revision>
+            <Name>REMEval07d</Name>
+            <Expression>{{topParent.Task.TaskType}}=="TempServic"||{{topParent.Task.TaskType}}=="TracerBrk"||{{topParent.Task.TaskType}}=="UGEntRep"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ20]">SWRKQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ07b]">REMQ07b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval08a]">
+            <Key>128745596</Key>
+            <Revision>2</Revision>
+            <Name>REMEval08a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[REMQ09]">REMQ09</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ10]">REMQ10</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval11a]">
+            <Key>128745509</Key>
+            <Revision>1</Revision>
+            <Name>REMEval11a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[REMQ12]">REMQ12</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ13]">REMQ13</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval12a]">
+            <Key>128745503</Key>
+            <Revision>1</Revision>
+            <Name>REMEval12a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[REMQ13]">REMQ13</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ13]">REMQ13</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval13a]">
+            <Key>128745494</Key>
+            <Revision>1</Revision>
+            <Name>REMEval13a</Name>
+            <Expression>{{QEREMBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[REMQ15]">REMQ15</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[REMQ15]">REMQ15</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[REMEval15a]">
+            <Key>128745474</Key>
+            <Revision>1</Revision>
+            <Name>REMEval15a</Name>
+            <Expression>{{QEREMBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[REMQ16]">REMQ16</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval03a]">
+            <Key>128745730</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval03a</Name>
+            <Expression>{{QESAFBoolean1}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ04]">SAFQ04</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ06]">SAFQ06</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval06a]">
+            <Key>128745725</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval06a</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ07]">SAFQ07</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ08]">SAFQ08</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval09a]">
+            <Key>128745720</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval09a</Name>
+            <Expression>{{ByPass}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ10]">SAFQ10</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ10]">SAFQ10</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval10a]">
+            <Key>128745717</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval10a</Name>
+            <Expression>{{QESAFBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ11]">SAFQ11</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ13]">SAFQ13</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval13]">
+            <Key>128745713</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval13</Name>
+            <Expression>({{topParent.Task.TaskType}}=="CO"&amp;&amp;({{Source1}}=="Blocked Chimney"||{{Source1}}=="Defective Equipment"||{{Source1}}=="Faulty CO Detector"||{{Source1}}=="Internal Engine"||{{Source1}}=="Lack/Combust Air"||{{Source1}}=="Negative Air Pressure"||{{Source1}}=="Plug Combustion Chamber"||{{Source1}}=="Smoke Contaminate"||{{Source1}}=="Other (See Comments)"))||(({{topParent.Task.TaskType}}=="IO"||{{topParent.Task.TaskType}}=="OO"||{{topParent.Task.TaskType}}=="NH"||{{topParent.Task.TaskType}}=="GroundEmrg"||{{topParent.Task.TaskType}}=="GroundRout")&amp;&amp;{{QEStatus}}=="Completed")||({{Source1}}=="CO"||{{Source2}}=="CO")</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ13a]">SAFQ13a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ13b]">SAFQ13b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval13c]">
+            <Key>128751616</Key>
+            <Revision>2</Revision>
+            <Name>SAFEval13c</Name>
+            <Expression>{{GasLeakCOPPM}} &gt; 34</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ14]">SAFQ14</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ14c]">SAFQ14c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval14a]">
+            <Key>128745711</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval14a</Name>
+            <Expression>{{QESAFBoolean7}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ14b]">SAFQ14b</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ15]">SAFQ15</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval15a]">
+            <Key>128745706</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval15a</Name>
+            <Expression>{{ReoReportRequired}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ16]">SAFQ16</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ16a]">SAFQ16a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval16a]">
+            <Key>128745705</Key>
+            <Revision>3</Revision>
+            <Name>SAFEval16a</Name>
+            <Expression>{{topParent.Task.ServiceCharge}} == "DEFAULT"|| {{topParent.Task.ServiceCharge}} == ""</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ19]">SAFQ19</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ17]">SAFQ17</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval17a]">
+            <Key>128745703</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval17a</Name>
+            <Expression>{{QESAFBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ18]">SAFQ18</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ19]">SAFQ19</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval19a]">
+            <Key>128745698</Key>
+            <Revision>2</Revision>
+            <Name>SAFEval19a</Name>
+            <Expression>{{QESAFBoolean4}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ20]">SAFQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ24b]">SAFQ24b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval22a]">
+            <Key>128745689</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval22a</Name>
+            <Expression>{{QESAFBoolean5}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ23]">SAFQ23</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ24]">SAFQ24</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval24a]">
+            <Key>128745687</Key>
+            <Revision>1</Revision>
+            <Name>SAFEval24a</Name>
+            <Expression>{{QESAFBoolean6}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ25]">SAFQ25</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ24b]">SAFQ24b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval24b]">
+            <Key>128745681</Key>
+            <Revision>2</Revision>
+            <Name>SAFEval24b</Name>
+            <Expression>{{topParent.Task.QEMeterReadMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SAFQ24c]">SAFQ24c</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SAFEval24c]">
+            <Key>128745674</Key>
+            <Revision>2</Revision>
+            <Name>SAFEval24c</Name>
+            <Expression>{{topParent.Task.QEMeterReadNotMandatory}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval02a]">
+            <Key>128745710</Key>
+            <Revision>1</Revision>
+            <Name>SENEval02a</Name>
+            <Expression>{{QESENBoolean1}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ28]">SENQ28</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ03]">SENQ03</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval07a]">
+            <Key>128745699</Key>
+            <Revision>1</Revision>
+            <Name>SENEval07a</Name>
+            <Expression>{{NextStepsOptions}} == "Yes - 2 next steps" || {{NextStepsOptions}} == "Yes - 3 next steps"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ08]">SENQ08</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ14]">SENQ14</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval10a]">
+            <Key>128745694</Key>
+            <Revision>1</Revision>
+            <Name>SENEval10a</Name>
+            <Expression>{{NextStepsOptions}} == "Yes - 3 next steps"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ11]">SENQ11</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ14]">SENQ14</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval14]">
+            <Key>128745686</Key>
+            <Revision>1</Revision>
+            <Name>SENEval14</Name>
+            <Expression>{{topParent.Task.QEMeterReadMandatory}} &amp;&amp; {{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ14a]">SENQ14a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ16]">SENQ16</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval14b]">
+            <Key>128745673</Key>
+            <Revision>1</Revision>
+            <Name>SENEval14b</Name>
+            <Expression>{{QESENBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ16]">SENQ16</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval16]">
+            <Key>128745525</Key>
+            <Revision>1</Revision>
+            <Name>SENEval16</Name>
+            <Expression>{{topParent.Task.TaskType}} !== "InqNewSerL" &amp;&amp; {{topParent.Task.TaskType}} !== "InqNewSerS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ16a]">SENQ16a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ19]">SENQ19</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval16b]">
+            <Key>128745523</Key>
+            <Revision>1</Revision>
+            <Name>SENEval16b</Name>
+            <Expression>{{QESENBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ17]">SENQ17</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ19]">SENQ19</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval17]">
+            <Key>128745522</Key>
+            <Revision>1</Revision>
+            <Name>SENEval17</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ17a]">SENQ17a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ17b]">SENQ17b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval20a]">
+            <Key>128745519</Key>
+            <Revision>1</Revision>
+            <Name>SENEval20a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ21]">SENQ21</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ26]">SENQ26</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval21a]">
+            <Key>128745514</Key>
+            <Revision>1</Revision>
+            <Name>SENEval21a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ26]">SENQ26</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ26]">SENQ26</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval26a]">
+            <Key>128745497</Key>
+            <Revision>1</Revision>
+            <Name>SENEval26a</Name>
+            <Expression>{{QESENBoolean4}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ27]">SENQ27</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ27]">SENQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval27a]">
+            <Key>128745491</Key>
+            <Revision>2</Revision>
+            <Name>SENEval27a</Name>
+            <Expression>{{QESENBoolean6}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ27b]">SENQ27b</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SENQ30]">SENQ30</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SENEval30a]">
+            <Key>128745473</Key>
+            <Revision>1</Revision>
+            <Name>SENEval30a</Name>
+            <Expression>{{QESENBoolean5}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SENQ31]">SENQ31</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval06a]">
+            <Key>128745709</Key>
+            <Revision>1</Revision>
+            <Name>SINEval06a</Name>
+            <Expression>{{AnticipatedInfo}} == "Both"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ07]">SINQ07</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ08]">SINQ08</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval11a]">
+            <Key>128745701</Key>
+            <Revision>1</Revision>
+            <Name>SINEval11a</Name>
+            <Expression>{{NextStepsOptions}} == "Yes - 2 next steps" || {{NextStepsOptions}} == "Yes - 3 next steps"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ12]">SINQ12</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ17a]">SINQ17a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval14a]">
+            <Key>128745692</Key>
+            <Revision>1</Revision>
+            <Name>SINEval14a</Name>
+            <Expression>{{NextStepsOptions}} == "Yes - 3 next steps"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ15]">SINQ15</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ17a]">SINQ17a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval17a]">
+            <Key>128745685</Key>
+            <Revision>1</Revision>
+            <Name>SINEval17a</Name>
+            <Expression>{{topParent.Task.QEMeterReadMandatory}} &amp;&amp; {{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ18]">SINQ18</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ19b]">SINQ19b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval18a]">
+            <Key>128745675</Key>
+            <Revision>1</Revision>
+            <Name>SINEval18a</Name>
+            <Expression>{{QESINBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ19b]">SINQ19b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval19b]">
+            <Key>128745620</Key>
+            <Revision>1</Revision>
+            <Name>SINEval19b</Name>
+            <Expression>{{topParent.Task.TaskType}} !== "InqNewSerL" &amp;&amp; {{topParent.Task.TaskType}} !== "InqNewSerS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ20]">SINQ20</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ23]">SINQ23</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval20a]">
+            <Key>128745616</Key>
+            <Revision>1</Revision>
+            <Name>SINEval20a</Name>
+            <Expression>{{QESINBoolean4}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ21]">SINQ21</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ23]">SINQ23</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval21]">
+            <Key>128745614</Key>
+            <Revision>1</Revision>
+            <Name>SINEval21</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ21a]">SINQ21a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ21b]">SINQ21b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval23a]">
+            <Key>128745603</Key>
+            <Revision>2</Revision>
+            <Name>SINEval23a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ24]">SINQ24</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ25]">SINQ25</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval26a]">
+            <Key>128745518</Key>
+            <Revision>1</Revision>
+            <Name>SINEval26a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ27]">SINQ27</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ32]">SINQ32</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval27a]">
+            <Key>128745513</Key>
+            <Revision>1</Revision>
+            <Name>SINEval27a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ32]">SINQ32</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ32]">SINQ32</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval32a]">
+            <Key>128745502</Key>
+            <Revision>1</Revision>
+            <Name>SINEval32a</Name>
+            <Expression>{{QESINBoolean6}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ33]">SINQ33</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ33]">SINQ33</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval33a]">
+            <Key>128745493</Key>
+            <Revision>2</Revision>
+            <Name>SINEval33a</Name>
+            <Expression>{{QESINBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ33b]">SINQ33b</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ35]">SINQ35</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval35a]">
+            <Key>128745479</Key>
+            <Revision>1</Revision>
+            <Name>SINEval35a</Name>
+            <Expression>{{QESINBoolean7}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ36]">SINQ36</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval00]">
+            <Key>128745714</Key>
+            <Revision>2</Revision>
+            <Name>SWRKEval00</Name>
+            <Expression>{{topParent.Task.TaskType}} == "AlterAG" || {{topParent.Task.TaskType}} == "TracerBrk" || {{topParent.Task.TaskType}} == "UGEntRep" || {{topParent.Task.TaskType}} == "TstLdSgnRp" || {{topParent.Task.TaskType}} == "GuardInst" || {{topParent.Task.ServicePointPrimary.Type}} == "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ01a]">SWRKQ01a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ01]">SWRKQ01</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval01a]">
+            <Key>128755716</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval01a</Name>
+            <Expression>{{topParent.Task.TaskType}} == "AlterAG" || {{topParent.Task.TaskType}} == "AlterUG" || {{topParent.Task.TaskType}} == "Bracket" || {{topParent.Task.TaskType}} == "NewServ"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ02]">SWRKQ02</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ01b]">SWRKQ01b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval01b]">
+            <Key>128755714</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval01b</Name>
+            <Expression>{{topParent.Task.TaskType}} == "StakingSM" || {{topParent.Task.TaskType}} == "TempServic" || {{topParent.Task.TaskType}} == "StakingLG"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ02]">SWRKQ02</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ05]">SWRKQ05</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval03a]">
+            <Key>128745708</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval03a</Name>
+            <Expression>{{AnticipatedInfo}} == "Both"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ04]">SWRKQ04</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ05]">SWRKQ05</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval08a]">
+            <Key>128745700</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval08a</Name>
+            <Expression>{{NextStepsOptions}} == "Yes - 2 next steps" || {{NextStepsOptions}} == "Yes - 3 next steps"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ09]">SWRKQ09</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ14a]">SWRKQ14a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval11a]">
+            <Key>128745693</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval11a</Name>
+            <Expression>{{NextStepsOptions}} == "Yes - 3 next steps"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ12]">SWRKQ12</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ14a]">SWRKQ14a</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval14a]">
+            <Key>128745683</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval14a</Name>
+            <Expression>{{topParent.Task.QEMeterReadMandatory}} &amp;&amp; {{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ15]">SWRKQ15</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ17]">SWRKQ17</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval15a]">
+            <Key>128745676</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval15a</Name>
+            <Expression>{{QESWRKBoolean3}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[ERMQ01]">ERMQ01</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ15b]">SWRKQ15b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval15b]">
+            <Key>128745621</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval15b</Name>
+            <Expression>{{topParent.Task.TaskType}} !== "InqNewSerL" || {{topParent.Task.TaskType}} !== "InqNewSerS"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ17]">SWRKQ17</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ20]">SWRKQ20</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval17a]">
+            <Key>128745615</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval17a</Name>
+            <Expression>{{QESWRKBoolean4}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ18]">SWRKQ18</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ20]">SWRKQ20</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval18]">
+            <Key>128745613</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval18</Name>
+            <Expression>{{topParent.Task.ServicePointPrimary.Type}} !== "Generic"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ18a]">SWRKQ18a</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ18b]">SWRKQ18b</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval20a]">
+            <Key>128745599</Key>
+            <Revision>2</Revision>
+            <Name>SWRKEval20a</Name>
+            <Expression>{{EncroachmentFound}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ21]">SWRKQ21</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ22]">SWRKQ22</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval23a]">
+            <Key>128745517</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval23a</Name>
+            <Expression>{{CommentsOfficeReview}} == "Both Office Review and Add Comments"</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ24]">SWRKQ24</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ27]">SWRKQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval24a]">
+            <Key>128745510</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval24a</Name>
+            <Expression>{{OfficeReview}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ27]">SWRKQ27</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ27]">SWRKQ27</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval27a]">
+            <Key>128745498</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval27a</Name>
+            <Expression>{{QESWRKBoolean7}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ28]">SWRKQ28</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ28]">SWRKQ28</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval28a]">
+            <Key>128745488</Key>
+            <Revision>2</Revision>
+            <Name>SWRKEval28a</Name>
+            <Expression>{{QESWRKBoolean2}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ28b]">SWRKQ28b</TrueNextQuestion>
+            <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ30]">SWRKQ30</FalseNextQuestion>
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+        <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SWRKEval30a]">
+            <Key>128745480</Key>
+            <Revision>1</Revision>
+            <Name>SWRKEval30a</Name>
+            <Expression>{{QESWRKBoolean6}}</Expression>
+            <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SWRKQ31]">SWRKQ31</TrueNextQuestion>
+            <FalseNextQuestion Key="-1" />
+            <FalsePrompt />
+            <EvaluateOnce>0</EvaluateOnce>
+        </QEngine_CIS_Evaluation>
+    </QEngine_CIS_Evaluation>
+</Configuration>
