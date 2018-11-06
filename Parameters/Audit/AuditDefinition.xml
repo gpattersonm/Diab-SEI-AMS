@@ -3,13 +3,13 @@
     <Setting>
         <Setting xoom:id="Setting[[Application]|Audit|Audit|Audit Definition]">
             <Key>790534151</Key>
-            <Revision>17</Revision>
+            <Revision>18</Revision>
             <Stamp>
                 <CreatedBy>CLICK\technical.services</CreatedBy>
                 <TimeCreated>2016-11-15T12:20:45</TimeCreated>
                 <CreatingProcess>0</CreatingProcess>
-                <ModifiedBy>SASKENG\uyj1</ModifiedBy>
-                <TimeModified>2018-02-28T13:25:07</TimeModified>
+                <ModifiedBy>SASKENG\pattg1</ModifiedBy>
+                <TimeModified>2018-11-06T15:01:37</TimeModified>
                 <ModifyingProcess>0</ModifyingProcess>
             </Stamp>
             <Owner>[Application]</Owner>
@@ -202,6 +202,14 @@
                                 <Property>
                                     <ObjName xoom:ref="Engineer Property[SafetyNextCheckIn]">SafetyNextCheckIn</ObjName>
                                     <AuditName xoom:ref="AuditEngineer Property[SafetyNextCheckIn]">SafetyNextCheckIn</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[Latitude]">Latitude</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[Latitude]">Latitude</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[Longitude]">Longitude</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[Longitude]">Longitude</AuditName>
                                 </Property>
                             </Properties>
                             <GroupName />
