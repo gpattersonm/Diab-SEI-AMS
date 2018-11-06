@@ -3,13 +3,13 @@
     <Setting>
         <Setting xoom:id="Setting[[Application]|Agent|Audit Archive|Audit Archive Agent]">
             <Key>790534148</Key>
-            <Revision>2</Revision>
+            <Revision>3</Revision>
             <Stamp>
                 <CreatedBy>CLICK\technical.services</CreatedBy>
                 <TimeCreated>2016-11-15T12:20:45</TimeCreated>
                 <CreatingProcess>0</CreatingProcess>
-                <ModifiedBy>SASKENG\burnm1</ModifiedBy>
-                <TimeModified>2018-01-30T11:30:20</TimeModified>
+                <ModifiedBy>SASKENG\pattg1</ModifiedBy>
+                <TimeModified>2018-11-06T16:04:08</TimeModified>
                 <ModifyingProcess>0</ModifyingProcess>
             </Stamp>
             <Owner>[Application]</Owner>
@@ -22,14 +22,22 @@
                         <Item>
                             <DictionaryName xoom:ref="Collection[Audit]">Audit</DictionaryName>
                             <TransferAmount>1000</TransferAmount>
+                            <StoredProcedure />
                         </Item>
                         <Item>
                             <DictionaryName xoom:ref="Collection[AuditEngineer]">AuditEngineer</DictionaryName>
                             <TransferAmount>1000</TransferAmount>
+                            <StoredProcedure />
                         </Item>
                         <Item>
                             <DictionaryName xoom:ref="Collection[AuditServiceAlert]">AuditServiceAlert</DictionaryName>
                             <TransferAmount>1000</TransferAmount>
+                            <StoredProcedure />
+                        </Item>
+                        <Item>
+                            <DictionaryName xoom:ref="Collection[AuditCrewAllocation]">AuditCrewAllocation</DictionaryName>
+                            <TransferAmount>1000</TransferAmount>
+                            <StoredProcedure />
                         </Item>
                     </Items>
                     <LogResults>True</LogResults>
