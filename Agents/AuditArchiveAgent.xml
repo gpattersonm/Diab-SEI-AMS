@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <Setting>
+        <Setting xoom:id="Setting[[Application]|Agent|Audit Archive|Audit Archive Agent]">
+            <Key>790534148</Key>
+            <Revision>2</Revision>
+            <Stamp>
+                <CreatedBy>CLICK\technical.services</CreatedBy>
+                <TimeCreated>2016-11-15T12:20:45</TimeCreated>
+                <CreatingProcess>0</CreatingProcess>
+                <ModifiedBy>SASKENG\burnm1</ModifiedBy>
+                <TimeModified>2018-01-30T11:30:20</TimeModified>
+                <ModifyingProcess>0</ModifyingProcess>
+            </Stamp>
+            <Owner>[Application]</Owner>
+            <Category>Agent</Category>
+            <SubCategory>Audit Archive</SubCategory>
+            <Name>Audit Archive Agent</Name>
+            <Body>
+                <AuditHistory>
+                    <Items>
+                        <Item>
+                            <DictionaryName xoom:ref="Collection[Audit]">Audit</DictionaryName>
+                            <TransferAmount>1000</TransferAmount>
+                        </Item>
+                        <Item>
+                            <DictionaryName xoom:ref="Collection[AuditEngineer]">AuditEngineer</DictionaryName>
+                            <TransferAmount>1000</TransferAmount>
+                        </Item>
+                        <Item>
+                            <DictionaryName xoom:ref="Collection[AuditServiceAlert]">AuditServiceAlert</DictionaryName>
+                            <TransferAmount>1000</TransferAmount>
+                        </Item>
+                    </Items>
+                    <LogResults>True</LogResults>
+                </AuditHistory>
+            </Body>
+            <LockID>0</LockID>
+        </Setting>
+    </Setting>
+</Configuration>
