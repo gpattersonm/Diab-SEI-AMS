@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <Setting>
+        <Setting xoom:id="Setting[[Application]|EventSystem|EventSystem|]">
+            <Key>387901440</Key>
+            <Revision>1967</Revision>
+            <Stamp>
+                <CreatedBy>CLICKSOFTWARE\carmel.magen</CreatedBy>
+                <TimeCreated>2004-11-07T08:08:15</TimeCreated>
+                <CreatingProcess>0</CreatingProcess>
+                <ModifiedBy>SASKENG\pattg1</ModifiedBy>
+                <TimeModified>2018-11-06T15:42:57</TimeModified>
+                <ModifyingProcess>0</ModifyingProcess>
+            </Stamp>
+            <Owner>[Application]</Owner>
+            <Category>EventSystem</Category>
+            <SubCategory>EventSystem</SubCategory>
+            <Name />
+            <Body>
+                <EventSystem>
+                    <Collections>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[AbsenceRequest]">AbsenceRequest</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[AbsenceRequest]">AbsenceRequest</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[AbsenceRequest]">AbsenceRequest</CollectionID>
+                            <ClassID Active="false" Type="COM">W6GenericUtilities.W6GenericStatusFlowEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[AssetAssociated]">AssetAssociated</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[AssetAssociated]">AssetAssociated</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[AssetOrderHistory]">AssetOrderHistory</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[AssetOrderHistory]">AssetOrderHistory</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Assignment]">Assignment</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Assignment]">Assignment</CollectionID>
+                            <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6HandleCrewAllocationNAEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Assignment]">Assignment</CollectionID>
+                            <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Attachment]">Attachment</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Attachment]">Attachment</CollectionID>
+                            <ClassID Active="true" Type="COM">W6FileAttachment.Server.Events.RepositorySynchronization, W6FileAttachment.Server</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Attachment]">Attachment</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[BundledItem]">BundledItem</CollectionID>
+                            <ClassID Active="true" Type="COM">W6BundlerEvents.BundledItemEvent,W6BundlerEvents</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[BundledItem]">BundledItem</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ButlerAction]">ButlerAction</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ButlerCondition]">ButlerCondition</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ButlerService]">ButlerService</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ButlerTrigger]">ButlerTrigger</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CISCompletion]">CISCompletion</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CISCompletion]">CISCompletion</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ConsumptionHistory]">ConsumptionHistory</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ConsumptionHistory]">ConsumptionHistory</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Contract]">Contract</CollectionID>
+                            <ClassID Active="false" Type="COM">W6RosterObjectModel.W6ContractEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CPHistory]">CPHistory</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CPHistory]">CPHistory</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6CrewAllocationOverlappingAssignmentsEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6CrewMaintainLastAllocationDateEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <ClassID Active="false" Type="COM">W6UtilitiesCustom.W6HandleCrewAllocationNAEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6HandleSpecialResourceAllocationEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <ClassID Active="false" Type="COM">W6UtilitiesCustom.W6MarkUnderStaffedCrewTasksEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CustomerAccount]">CustomerAccount</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Encroachment]">Encroachment</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Encroachment]">Encroachment</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Engineer]">Engineer</CollectionID>
+                            <ClassID Active="true" Type="COM">W6AuditLib.W6Audit, W6AuditLib</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Engineer]">Engineer</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Engineer]">Engineer</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Engineer]">Engineer</CollectionID>
+                            <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6PropagateUpdatesToRelocationsEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Exception]">Exception</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Exception]">Exception</CollectionID>
+                            <ClassID Active="true" Type="COM">W6IntEvents.W6IntGenericEvent, W6IntEvents</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[FieldActivityHistory]">FieldActivityHistory</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[FIF]">FIF</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[FIF]">FIF</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[FIF]">FIF</CollectionID>
+                            <ClassID Active="true" Type="COM">W6IntEvents.W6IntGenericEvent, W6IntEvents</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Group]">Group</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[LineLocate]">LineLocate</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[LineLocate]">LineLocate</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[LineLocate]">LineLocate</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[LunchBreakException]">LunchBreakException</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[MeterInquiry]">MeterInquiry</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[MeterInquiry]">MeterInquiry</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[MeterInquiry]">MeterInquiry</CollectionID>
+                            <ClassID Active="true" Type="COM">W6IntEvents.W6IntGenericEvent, W6IntEvents</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[MultiPremise]">MultiPremise</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[MultiPremise]">MultiPremise</CollectionID>
+                            <ClassID Active="true" Type="COM">W6IntEvents.W6IntGenericEvent, W6IntEvents</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Objective]">Objective</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[OdorantHistory]">OdorantHistory</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[OdorantHistory]">OdorantHistory</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[OneWorldCompletion]">OneWorldCompletion</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[OneWorldCompletion]">OneWorldCompletion</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[OneWorldControlPoint]">OneWorldControlPoint</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[OneWorldODR]">OneWorldODR</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartLocation]">PartLocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartLocation]">PartLocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartOrder]">PartOrder</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartOrder]">PartOrder</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartsInStock]">PartsInStock</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartsInStock]">PartsInStock</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartsStock]">PartsStock</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PartsStock]">PartsStock</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PlanDemand]">PlanDemand</CollectionID>
+                            <ClassID Active="false" Type="COM">W6PlanCustom.W6PlanMaintainConsistency, W6PlanCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[PremiseHistory]">PremiseHistory</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[QEngine_Exception_Answer]">QEngine_Exception_Answer</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[QEngine_Exception_Evaluation]">QEngine_Exception_Evaluation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[QEngine_Exception_Group]">QEngine_Exception_Group</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[QEngine_Exception_Question]">QEngine_Exception_Question</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RequiredPart]">RequiredPart</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RequiredPart]">RequiredPart</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMMultiValueOfBusinessObjectsEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RequiredPart]">RequiredPart</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterCrewType]">RosterCrewType</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6CrewDemandTypesPathConsistencyEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterDemand]">RosterDemand</CollectionID>
+                            <ClassID Active="false" Type="COM">W6RosterObjectModel.W6PreventOverlappingIntervalDemandEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterDemand]">RosterDemand</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ShiftDemandUniquenessEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterDemand]">RosterDemand</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ValidateDemandModeOnDemandEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterDemandType]">RosterDemandType</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6DemandTypePathConsistencyEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterResourceAllocation]">RosterResourceAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6PreventConcurrentLocationsEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterResourceAllocation]">RosterResourceAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6PreventConcurrentReplacementsEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterResourceAllocation]">RosterResourceAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6RelocationOverlayingLocationEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterShift]">RosterShift</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterShift]">RosterShift</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericStatusFlowEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterShift]">RosterShift</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterShift]">RosterShift</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6MaintainShiftSyncWithCalendarEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterShift]">RosterShift</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6PreventOverlappingRosterShiftsEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterShift]">RosterShift</CollectionID>
+                            <ClassID Active="false" Type="COM">W6RosterObjectModel.W6PreventShiftsOverlayingCoreUnavailabilityEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[RosterShift]">RosterShift</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ValidateDemandModeOnShiftEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Rule]">Rule</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ServiceAlert]">ServiceAlert</CollectionID>
+                            <ClassID Active="true" Type="COM">W6AuditLib.W6Audit, W6AuditLib</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ServiceAlert]">ServiceAlert</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ServicePoint]">ServicePoint</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMEmbeddedObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ServicePoint]">ServicePoint</CollectionID>
+                            <ClassID Active="false" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Setting]">Setting</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMDictionariesFiltersSettingEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Setting]">Setting</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Setting]">Setting</CollectionID>
+                            <ClassID Active="true" Type="COM">W6SettingsAudit.SettingsAuditEvent, W6SettingsAudit</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[SettingsAudit]">SettingsAudit</CollectionID>
+                            <ClassID Active="true" Type="COM">W6SettingsAudit.SettingsAuditEvent, W6SettingsAudit</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[ShiftTemplate]">ShiftTemplate</CollectionID>
+                            <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Shout]">Shout</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[SimpleCondition]">SimpleCondition</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[StandbyRoster]">StandbyRoster</CollectionID>
+                            <ClassID Active="true" Type="COM">Diabsolut.SaskEnergy.SO.Events.ConcatenateValuesEvent, Diabsolut.SaskEnergy.SO</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[StandbyRoster]">StandbyRoster</CollectionID>
+                            <ClassID Active="true" Type="COM">Diabsolut.SaskEnergy.SO.Events.StandByRosterEvent,Diabsolut.SaskEnergy.SO</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[StationAsset]">StationAsset</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[StationAssetInquiry]">StationAssetInquiry</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[StationAssetInquiry]">StationAssetInquiry</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[StationAssetInquiry]">StationAssetInquiry</CollectionID>
+                            <ClassID Active="true" Type="COM">W6IntEvents.W6IntGenericEvent, W6IntEvents</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[StatusFlow]">StatusFlow</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6StatusFlowValidationEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Task]">Task</CollectionID>
+                            <ClassID Active="true" Type="COM">Diabsolut.SaskEnergy.SO.Events.TaskRequiredPartsEvent,Diabsolut.SaskEnergy.SO</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Task]">Task</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[Task]">Task</CollectionID>
+                            <ClassID Active="false" Type="COM">W6UtilitiesCustom.W6TaskRejectEvent, W6UtilitiesCustom</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[TeamChatItem]">TeamChatItem</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[TechnicianSafety]">TechnicianSafety</CollectionID>
+                            <ClassID Active="true" Type="COM">Diabsolut.SaskEnergy.SO.Events.RestBreakNAs, Diabsolut.SaskEnergy.SO</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[TechnicianSafety]">TechnicianSafety</CollectionID>
+                            <ClassID Active="true" Type="COM">Diabsolut.TechnicianSafety.SO.Events.TechnicianSafetyEvent, Diabsolut.TechnicianSafety.SO</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[TechnicianSafety]">TechnicianSafety</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMGenericObjectEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[TechnicianSafety]">TechnicianSafety</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[UserSetting]">UserSetting</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMMobileBroadcastUpdateToCM, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[UserSetting]">UserSetting</CollectionID>
+                            <ClassID Active="true" Type="COM">W6CMServer.W6CMMobileUserSettingEvent, W6CMServer</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[UserSetting]">UserSetting</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[UserSetting]">UserSetting</CollectionID>
+                            <ClassID Active="true" Type="COM">W6SettingsAudit.SettingsAuditEvent, W6SettingsAudit</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[VacationCalendar]">VacationCalendar</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[WorkOrder]">WorkOrder</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[WorkOrderItem]">WorkOrderItem</CollectionID>
+                            <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                        </Item>
+                    </Collections>
+                </EventSystem>
+            </Body>
+            <LockID>0</LockID>
+        </Setting>
+    </Setting>
+</Configuration>
