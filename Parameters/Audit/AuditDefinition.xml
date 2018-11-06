@@ -3,13 +3,13 @@
     <Setting>
         <Setting xoom:id="Setting[[Application]|Audit|Audit|Audit Definition]">
             <Key>790534151</Key>
-            <Revision>18</Revision>
+            <Revision>19</Revision>
             <Stamp>
                 <CreatedBy>CLICK\technical.services</CreatedBy>
                 <TimeCreated>2016-11-15T12:20:45</TimeCreated>
                 <CreatingProcess>0</CreatingProcess>
                 <ModifiedBy>SASKENG\pattg1</ModifiedBy>
-                <TimeModified>2018-11-06T15:01:37</TimeModified>
+                <TimeModified>2018-11-06T15:54:55</TimeModified>
                 <ModifyingProcess>0</ModifyingProcess>
             </Stamp>
             <Owner>[Application]</Owner>
@@ -269,6 +269,36 @@
                                 <Property>
                                     <ObjName xoom:ref="ServiceAlert Property[TaskNumber]">TaskNumber</ObjName>
                                     <AuditName xoom:ref="AuditServiceAlert Property[TaskNumber]">TaskNumber</AuditName>
+                                </Property>
+                            </Properties>
+                            <GroupName />
+                        </Object>
+                        <Object>
+                            <DictionaryName xoom:ref="Collection[AuditCrewAllocation]">AuditCrewAllocation</DictionaryName>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <Properties>
+                                <Property>
+                                    <ObjName xoom:ref="CrewAllocation Property[Crew]">Crew</ObjName>
+                                    <AuditName xoom:ref="AuditCrewAllocation Property[Crew]">Crew</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="CrewAllocation Property[StartTime]">StartTime</ObjName>
+                                    <AuditName xoom:ref="AuditCrewAllocation Property[StartTime]">StartTime</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="CrewAllocation Property[FinishTime]">FinishTime</ObjName>
+                                    <AuditName xoom:ref="AuditCrewAllocation Property[FinishTime]">FinishTime</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="CrewAllocation Property[AllocatedResource]">AllocatedResource</ObjName>
+                                    <AuditName xoom:ref="AuditCrewAllocation Property[AllocatedResource]">AllocatedResource</AuditName>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="Engineer Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="CrewAllocation Property[Relocation]">Relocation</ObjName>
+                                    <AuditName xoom:ref="AuditCrewAllocation Property[Relocation]">Relocation</AuditName>
                                 </Property>
                             </Properties>
                             <GroupName />
