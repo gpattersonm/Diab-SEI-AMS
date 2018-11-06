@@ -336,6 +336,34 @@
                     <ReferenceType>RegularString</ReferenceType>
                     <OutputInMinutes>False</OutputInMinutes>
                 </Attribute>
+                <Attribute>
+                    <ID>23</ID>
+                    <IdName>Latitude</IdName>
+                    <Name>Latitude</Name>
+                    <ProductName>Latitude</ProductName>
+                    <BasicType>Long</BasicType>
+                    <ValueType>Long</ValueType>
+                    <IsMandatory>False</IsMandatory>
+                    <IsProduct>False</IsProduct>
+                    <DefaultValue>""</DefaultValue>
+                    <ReferenceType>RegularString</ReferenceType>
+                    <OutputInMinutes>False</OutputInMinutes>
+                    <IsBoolean>False</IsBoolean>
+                </Attribute>
+                <Attribute>
+                    <ID>24</ID>
+                    <IdName>Longitude</IdName>
+                    <Name>Longitude</Name>
+                    <ProductName>Longitude</ProductName>
+                    <BasicType>Long</BasicType>
+                    <ValueType>Long</ValueType>
+                    <IsMandatory>False</IsMandatory>
+                    <IsProduct>False</IsProduct>
+                    <DefaultValue>""</DefaultValue>
+                    <ReferenceType>RegularString</ReferenceType>
+                    <OutputInMinutes>False</OutputInMinutes>
+                    <IsBoolean>False</IsBoolean>
+                </Attribute>
             </Attributes>
             <Indexes>
                 <Index>
