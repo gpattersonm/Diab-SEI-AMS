@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <Setting>
+        <Setting xoom:id="Setting[[Application]|Audit|Audit|Audit Definition]">
+            <Key>790534151</Key>
+            <Revision>17</Revision>
+            <Stamp>
+                <CreatedBy>CLICK\technical.services</CreatedBy>
+                <TimeCreated>2016-11-15T12:20:45</TimeCreated>
+                <CreatingProcess>0</CreatingProcess>
+                <ModifiedBy>SASKENG\uyj1</ModifiedBy>
+                <TimeModified>2018-02-28T13:25:07</TimeModified>
+                <ModifyingProcess>0</ModifyingProcess>
+            </Stamp>
+            <Owner>[Application]</Owner>
+            <Category>Audit</Category>
+            <SubCategory>Audit</SubCategory>
+            <Name>Audit Definition</Name>
+            <Body>
+                <AuditDefinition>
+                    <Objects>
+                        <DictionaryName xoom:ref="Collection[Audit]">Audit</DictionaryName>
+                        <Task>
+                            <Properties>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[CallID]">CallID</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskCallID]">TaskCallID</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[OrderID]">OrderID</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskOrderIDString]">TaskOrderIDString</AuditName>
+                                    <ChangeDescription>Work Order Number Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[Number]">Number</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskNumber]">TaskNumber</AuditName>
+                                    <ChangeDescription>Number Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[Priority]">Priority</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskPriority]">TaskPriority</AuditName>
+                                    <ChangeDescription>Priority Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[SchedulingPriority]">SchedulingPriority</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskSchedulingPriority]">TaskSchedulingPriority</AuditName>
+                                    <ChangeDescription>Scheduling Priority Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[Status]">Status</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskStatus]">TaskStatus</AuditName>
+                                    <ChangeDescription>Status Changed</ChangeDescription>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="TaskStatus Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[JeopardyState]">JeopardyState</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskJeopardyState]">TaskJeopardyState</AuditName>
+                                    <ChangeDescription>Jeopardy State Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[EarlyStart]">EarlyStart</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskEarlyStart]">TaskEarlyStart</AuditName>
+                                    <ChangeDescription>Start Date Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[DueDate]">DueDate</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskDueDate]">TaskDueDate</AuditName>
+                                    <ChangeDescription>Due Date Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[Duration]">Duration</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskDuration]">TaskDuration</AuditName>
+                                    <ChangeDescription>Duration Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[Pinned]">Pinned</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskPinned]">TaskPinned</AuditName>
+                                    <ChangeDescription>Pinned/Unpinned</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Task Property[IsManualSchedule]">IsManualSchedule</ObjName>
+                                    <AuditName xoom:ref="Audit Property[TaskManualSchedule]">TaskManualSchedule</AuditName>
+                                    <ChangeDescription>Manual Schedule Changed</ChangeDescription>
+                                </Property>
+                            </Properties>
+                            <GroupName />
+                        </Task>
+                        <Assignment>
+                            <Properties>
+                                <Property>
+                                    <ObjName xoom:ref="Assignment Property[Start]">Start</ObjName>
+                                    <AuditName xoom:ref="Audit Property[AssignmentStart]">AssignmentStart</AuditName>
+                                    <ChangeDescription>Assignment Start Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Assignment Property[Finish]">Finish</ObjName>
+                                    <AuditName xoom:ref="Audit Property[AssignmentFinish]">AssignmentFinish</AuditName>
+                                    <ChangeDescription>Assignment Finish Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Assignment Property[Engineers]">Engineers</ObjName>
+                                    <AuditName xoom:ref="Audit Property[AssignedEngineers]">AssignedEngineers</AuditName>
+                                    <ChangeDescription>Assigned Engineer Changed</ChangeDescription>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="Engineer Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Assignment Property[NonAvailabilityType]">NonAvailabilityType</ObjName>
+                                    <AuditName xoom:ref="Audit Property[AssignmentNAType]">AssignmentNAType</AuditName>
+                                    <ChangeDescription>N/A Type Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Assignment Property[Street]">Street</ObjName>
+                                    <AuditName xoom:ref="Audit Property[AssignmentStreet]">AssignmentStreet</AuditName>
+                                    <ChangeDescription>Address Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Assignment Property[City]">City</ObjName>
+                                    <AuditName xoom:ref="Audit Property[AssignmentCity]">AssignmentCity</AuditName>
+                                    <ChangeDescription>City Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Assignment Property[Comment]">Comment</ObjName>
+                                    <AuditName xoom:ref="Audit Property[AssignmentComment]">AssignmentComment</AuditName>
+                                    <ChangeDescription>Assignment Comment Changed</ChangeDescription>
+                                </Property>
+                            </Properties>
+                            <GroupName />
+                        </Assignment>
+                    </Objects>
+                    <GenericObjects>
+                        <Object>
+                            <DictionaryName xoom:ref="Collection[AuditEngineer]">AuditEngineer</DictionaryName>
+                            <CollectionID xoom:ref="Collection[Engineer]">Engineer</CollectionID>
+                            <Properties>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[Name]">Name</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[EngineerName]">EngineerName</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[Region]">Region</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[EngineerRegion]">EngineerRegion</AuditName>
+                                    <ChangeDescription>Region Changed</ChangeDescription>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="Region Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[District]">District</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[EngineerDistrict]">EngineerDistrict</AuditName>
+                                    <ChangeDescription>District Changed</ChangeDescription>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="District Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[EngineerType]">EngineerType</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[EngineerType]">EngineerType</AuditName>
+                                    <ChangeDescription>Technician Type Changed</ChangeDescription>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="EngineerType Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[Street]">Street</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[EngineerStreet]">EngineerStreet</AuditName>
+                                    <ChangeDescription>Address Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[City]">City</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[EngineerCity]">EngineerCity</AuditName>
+                                    <ChangeDescription>City Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[DispatchPolicy]">DispatchPolicy</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[EngineerDispatchPolicy]">EngineerDispatchPolicy</AuditName>
+                                    <ChangeDescription>Dispatch Policy Changed</ChangeDescription>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="DispatchPolicy Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[MaxDistanceFromHB]">MaxDistanceFromHB</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[MaxDistanceFromHB]">MaxDistanceFromHB</AuditName>
+                                    <ChangeDescription>Max Distance from HB Changed</ChangeDescription>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[SafetyComments]">SafetyComments</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[SafetyComments]">SafetyComments</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[SafetyState]">SafetyState</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[SafetyState]">SafetyState</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[SafetyStep]">SafetyStep</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[SafetyStep]">SafetyStep</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="Engineer Property[SafetyNextCheckIn]">SafetyNextCheckIn</ObjName>
+                                    <AuditName xoom:ref="AuditEngineer Property[SafetyNextCheckIn]">SafetyNextCheckIn</AuditName>
+                                </Property>
+                            </Properties>
+                            <GroupName />
+                        </Object>
+                        <Object>
+                            <DictionaryName xoom:ref="Collection[AuditServiceAlert]">AuditServiceAlert</DictionaryName>
+                            <CollectionID xoom:ref="Collection[ServiceAlert]">ServiceAlert</CollectionID>
+                            <Properties>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[UserNames]">UserNames</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[UserNames]">UserNames</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[ServiceAlertStatus]">ServiceAlertStatus</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[ServiceAlertStatus]">ServiceAlertStatus</AuditName>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="ServiceAlertStatus Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[ServiceAlertType]">ServiceAlertType</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[ServiceAlertType]">ServiceAlertType</AuditName>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="ServiceAlertType Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[AlertStartTime]">AlertStartTime</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[AlertStartTime]">AlertStartTime</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[AlertFinishTime]">AlertFinishTime</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[AlertFinishTime]">AlertFinishTime</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[ExpectedDueDate]">ExpectedDueDate</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[ExpectedDueDate]">ExpectedDueDate</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[Region]">Region</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[Region]">Region</AuditName>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="Region Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[District]">District</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[District]">District</AuditName>
+                                    <DisplayProperties>
+                                        <Property xoom:ref="District Property[Name]">Name</Property>
+                                    </DisplayProperties>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[CallID]">CallID</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[CallId]">CallId</AuditName>
+                                </Property>
+                                <Property>
+                                    <ObjName xoom:ref="ServiceAlert Property[TaskNumber]">TaskNumber</ObjName>
+                                    <AuditName xoom:ref="AuditServiceAlert Property[TaskNumber]">TaskNumber</AuditName>
+                                </Property>
+                            </Properties>
+                            <GroupName />
+                        </Object>
+                    </GenericObjects>
+                    <Connections>
+                        <ServiceOptimizationDB DatabaseType="Not used" xpi:keep-target="true" 
+                            xmlns:xpi="urn:zanyants-xoom:directive:processing-instruction:o=zanyants;c=xoom;v=1.0;">
+                            <ConnectString>xoom-encrypted:lDjYNoh41ZQx70oDKiSUQGxNiNknqiGW/uovj97QNTMd6PTgIyc80apN2urMJERF</ConnectString>
+                        </ServiceOptimizationDB>
+                        <AuditArchiveDB DatabaseType="Not used" xpi:keep-target="true" 
+                            xmlns:xpi="urn:zanyants-xoom:directive:processing-instruction:o=zanyants;c=xoom;v=1.0;">
+                            <ConnectString>xoom-encrypted:7s3yMWBj5u3AC2gybdQLTVwrhaClm9rHfykTHDeJZt6Hub+wjigqcPybQgHool7j</ConnectString>
+                        </AuditArchiveDB>
+                    </Connections>
+                    <Parameters MVSeparator=":" AggregateSeparator="|" ImprovePerformance="False" />
+                    <CheckRules>
+                        <EnableCheckRules>True</EnableCheckRules>
+                        <DefaultLogicDomain xoom:ref="Logic Domain[Standard WebClient]">Standard WebClient</DefaultLogicDomain>
+                        <Templates>
+                            <Template>
+                                <Name>Operations Manager</Name>
+                                <LogicDomain xoom:ref="Logic Domain[Standard WebClient]">Standard WebClient</LogicDomain>
+                                <RuleViolationProperty xoom:ref="Audit Property[RuleViolationText]">RuleViolationText</RuleViolationProperty>
+                                <TemplateType>Web</TemplateType>
+                            </Template>
+                            <Template>
+                                <Name>Operations Supervisor/Lead</Name>
+                                <LogicDomain xoom:ref="Logic Domain[Standard WebClient]">Standard WebClient</LogicDomain>
+                                <RuleViolationProperty xoom:ref="Audit Property[RuleViolationText]">RuleViolationText</RuleViolationProperty>
+                                <TemplateType>Web</TemplateType>
+                            </Template>
+                            <Template>
+                                <Name>Dispatch Manager</Name>
+                                <LogicDomain xoom:ref="Logic Domain[Standard WebClient]">Standard WebClient</LogicDomain>
+                                <RuleViolationProperty xoom:ref="Audit Property[RuleViolationText]">RuleViolationText</RuleViolationProperty>
+                                <TemplateType>Web</TemplateType>
+                            </Template>
+                            <Template>
+                                <Name>Dispatcher</Name>
+                                <LogicDomain xoom:ref="Logic Domain[Standard WebClient]">Standard WebClient</LogicDomain>
+                                <RuleViolationProperty xoom:ref="Audit Property[RuleViolationText]">RuleViolationText</RuleViolationProperty>
+                                <TemplateType>Web</TemplateType>
+                            </Template>
+                            <Template>
+                                <Name>Planner</Name>
+                                <LogicDomain xoom:ref="Logic Domain[Standard WebClient]">Standard WebClient</LogicDomain>
+                                <RuleViolationProperty xoom:ref="Audit Property[RuleViolationText]">RuleViolationText</RuleViolationProperty>
+                                <TemplateType>Web</TemplateType>
+                            </Template>
+                            <Template>
+                                <Name>System Administrator</Name>
+                                <LogicDomain xoom:ref="Logic Domain[Standard WebClient]">Standard WebClient</LogicDomain>
+                                <RuleViolationProperty xoom:ref="Audit Property[RuleViolationText]">RuleViolationText</RuleViolationProperty>
+                                <TemplateType>Web</TemplateType>
+                            </Template>
+                        </Templates>
+                        <Users />
+                    </CheckRules>
+                </AuditDefinition>
+            </Body>
+            <LockID>0</LockID>
+        </Setting>
+    </Setting>
+</Configuration>
