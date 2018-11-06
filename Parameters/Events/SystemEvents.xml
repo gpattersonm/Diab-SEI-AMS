@@ -125,6 +125,10 @@
                         </Item>
                         <Item>
                             <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
+                            <ClassID Active="true" Type="COM">W6AuditLib.W6Audit, W6AuditLib</ClassID>
+                        </Item>
+                        <Item>
+                            <CollectionID xoom:ref="Collection[CrewAllocation]">CrewAllocation</CollectionID>
                             <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6CrewAllocationOverlappingAssignmentsEvent, W6UtilitiesCustom</ClassID>
                         </Item>
                         <Item>
