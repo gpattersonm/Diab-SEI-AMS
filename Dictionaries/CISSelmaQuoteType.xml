@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xoom="urn:xmlns:zanyants:xoom" version="3.11.5.329">
+    <CISSelmaQuoteType>
+        <CISSelmaQuoteType xoom:id="CISSelmaQuoteType[Ball Park No Visit]">
+            <Key>1166016512</Key>
+            <Revision>8</Revision>
+            <Name>Ball Park No Visit</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+            </TaskTypes>
+        </CISSelmaQuoteType>
+        <CISSelmaQuoteType xoom:id="CISSelmaQuoteType[Ball Park Site Visit]">
+            <Key>1166016513</Key>
+            <Revision>8</Revision>
+            <Name>Ball Park Site Visit</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+            </TaskTypes>
+        </CISSelmaQuoteType>
+        <CISSelmaQuoteType xoom:id="CISSelmaQuoteType[Firm]">
+            <Key>1166016514</Key>
+            <Revision>8</Revision>
+            <Name>Firm</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+            </TaskTypes>
+        </CISSelmaQuoteType>
+        <CISSelmaQuoteType xoom:id="CISSelmaQuoteType[N/A]">
+            <Key>1166016515</Key>
+            <Revision>8</Revision>
+            <Name>N/A</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+            </TaskTypes>
+        </CISSelmaQuoteType>
+        <CISSelmaQuoteType xoom:id="CISSelmaQuoteType[Not Quoted Yet]">
+            <Key>1166016516</Key>
+            <Revision>8</Revision>
+            <Name>Not Quoted Yet</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+            </TaskTypes>
+        </CISSelmaQuoteType>
+        <CISSelmaQuoteType xoom:id="CISSelmaQuoteType[Previously Quoted]">
+            <Key>1166016517</Key>
+            <Revision>8</Revision>
+            <Name>Previously Quoted</Name>
+            <TaskTypes>
+                <TaskType xoom:ref="TaskType[Encroach]">Encroach</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
+                <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
+                <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[StakingLG]">StakingLG</TaskType>
+                <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
+            </TaskTypes>
+        </CISSelmaQuoteType>
+    </CISSelmaQuoteType>
+</Configuration>
