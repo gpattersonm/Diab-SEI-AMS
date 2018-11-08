@@ -13,7 +13,7 @@
         </CISServiceLineStatus>
         <CISServiceLineStatus xoom:id="CISServiceLineStatus[N/A]">
             <Key>1166016512</Key>
-            <Revision>18</Revision>
+            <Revision>19</Revision>
             <Name>N/A</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -30,6 +30,7 @@
                 <TaskType xoom:ref="TaskType[StakingSM]">StakingSM</TaskType>
                 <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
                 <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISServiceLineStatus>
         <CISServiceLineStatus xoom:id="CISServiceLineStatus[No Gas Lines Yet 268]">

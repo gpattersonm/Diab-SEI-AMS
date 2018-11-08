@@ -2713,9 +2713,9 @@
         </QEngine_CIS_Evaluation>
         <QEngine_CIS_Evaluation xoom:id="QEngine_CIS_Evaluation[SINEval19b]">
             <Key>128745620</Key>
-            <Revision>1</Revision>
+            <Revision>2</Revision>
             <Name>SINEval19b</Name>
-            <Expression>{{topParent.Task.TaskType}} !== "InqNewSerL" &amp;&amp; {{topParent.Task.TaskType}} !== "InqNewSerS"</Expression>
+            <Expression>{{topParent.Task.TaskType}} !== "InqNewSerL" &amp;&amp; {{topParent.Task.TaskType}} !== "InqNewSerS" &amp;&amp; {{topParent.Task.TaskType}} !== "SELMACustCon"</Expression>
             <TrueNextQuestion xoom:ref="QEngine_CIS_Question[SINQ20]">SINQ20</TrueNextQuestion>
             <FalseNextQuestion xoom:ref="QEngine_CIS_Question[SINQ23]">SINQ23</FalseNextQuestion>
             <FalsePrompt />

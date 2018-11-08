@@ -3,7 +3,7 @@
     <CISSelmaToBeRequestedBy>
         <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[Contractor]">
             <Key>1166016512</Key>
-            <Revision>19</Revision>
+            <Revision>20</Revision>
             <Name>Contractor</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -23,11 +23,12 @@
                 <TaskType xoom:ref="TaskType[TracerBrk]">TracerBrk</TaskType>
                 <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaToBeRequestedBy>
         <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[Customer]">
             <Key>1166016513</Key>
-            <Revision>19</Revision>
+            <Revision>20</Revision>
             <Name>Customer</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -48,6 +49,7 @@
                 <TaskType xoom:ref="TaskType[UGEntRep]">UGEntRep</TaskType>
                 <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaToBeRequestedBy>
         <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[N/A]">
@@ -61,7 +63,7 @@
         </CISSelmaToBeRequestedBy>
         <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[Tech]">
             <Key>1166016514</Key>
-            <Revision>19</Revision>
+            <Revision>20</Revision>
             <Name>Tech</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -83,11 +85,12 @@
                 <TaskType xoom:ref="TaskType[TstLdSgnRp]">TstLdSgnRp</TaskType>
                 <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaToBeRequestedBy>
         <CISSelmaToBeRequestedBy xoom:id="CISSelmaToBeRequestedBy[This Completion]">
             <Key>1166016515</Key>
-            <Revision>19</Revision>
+            <Revision>20</Revision>
             <Name>This Completion</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[AlterAG]">AlterAG</TaskType>
@@ -109,6 +112,7 @@
                 <TaskType xoom:ref="TaskType[TstLdSgnRp]">TstLdSgnRp</TaskType>
                 <TaskType xoom:ref="TaskType[GuardInst]">GuardInst</TaskType>
                 <TaskType xoom:ref="TaskType[TempServic]">TempServic</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaToBeRequestedBy>
     </CISSelmaToBeRequestedBy>

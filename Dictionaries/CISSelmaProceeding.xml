@@ -27,35 +27,38 @@
         </CISSelmaProceeding>
         <CISSelmaProceeding xoom:id="CISSelmaProceeding[Maybe]">
             <Key>1166016522</Key>
-            <Revision>6</Revision>
+            <Revision>7</Revision>
             <Name>Maybe</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
                 <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaProceeding>
         <CISSelmaProceeding xoom:id="CISSelmaProceeding[No]">
             <Key>1166016524</Key>
-            <Revision>6</Revision>
+            <Revision>7</Revision>
             <Name>No</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
                 <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaProceeding>
         <CISSelmaProceeding xoom:id="CISSelmaProceeding[Yes]">
             <Key>1166032898</Key>
-            <Revision>1</Revision>
+            <Revision>2</Revision>
             <Name>Yes</Name>
             <TaskTypes>
                 <TaskType xoom:ref="TaskType[InqAltLG]">InqAltLG</TaskType>
                 <TaskType xoom:ref="TaskType[InqAltSM]">InqAltSM</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerL]">InqNewSerL</TaskType>
                 <TaskType xoom:ref="TaskType[InqNewSerS]">InqNewSerS</TaskType>
+                <TaskType xoom:ref="TaskType[SELMACustCon]">SELMACustCon</TaskType>
             </TaskTypes>
         </CISSelmaProceeding>
     </CISSelmaProceeding>

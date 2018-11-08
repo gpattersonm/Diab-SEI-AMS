@@ -421,6 +421,11 @@
             <Revision>3</Revision>
             <Name>SafetyMon</Name>
         </Skill>
+        <Skill xoom:id="Skill[SELMACustCon]">
+            <Key>125085696</Key>
+            <Revision>1</Revision>
+            <Name>SELMACustCon</Name>
+        </Skill>
         <Skill xoom:id="Skill[SELMAField]">
             <Key>125065258</Key>
             <Revision>4</Revision>
